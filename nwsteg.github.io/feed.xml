@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-05-27T13:19:56-05:00</updated><id>/feed.xml</id><entry><title type="html">Solving the Poisson Equation on an Unstructured Grid in MATLAB</title><link href="/2020/05/05/poisson.html" rel="alternate" type="text/html" title="Solving the Poisson Equation on an Unstructured Grid in MATLAB" /><published>2020-05-05T00:00:00-05:00</published><updated>2020-05-05T00:00:00-05:00</updated><id>/2020/05/05/poisson</id><content type="html" xml:base="/2020/05/05/poisson.html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<ul>
+  <li>What’s in this blog post?</li>
+  <li>What is the Poisson equation?</li>
+  <li>Where does the Poisson equation show up?</li>
+  <li>How can we solve it?</li>
+</ul>
+
+<h2 id="discretization">Discretization</h2>
+<p>We want to solve \(\nabla^2u(x,y)=g(x,y)\) on some domain \(D\subset{\mathbb{R}^2}\). For the boundary condition, assume \(u(x,y)=0\) for \((x,y) \in \partial D\). We will discretize \(D\) with an unstructured mesh of triangles \(\left\{\Omega_i\right\}_{i=1}^{N}\) and form a matrix system \(Au=b\) to solve for the values \(u_i\) at the triangle centers. Consider one of these triangles \(\Omega \subset D\):</p>
+
+<p style="text-align: center;">
+<embed src="/svg/poisson/finvol.svg" type="image/svg+xml" />
+</p>
+<p>Integrating \(\nabla^2 u\) over the volume (in this case, it’s an area) \(\Omega\) and applying Gauss’ law gives</p>
+
+\[\begin{align}
+	\int_{\Omega}\nabla^2 u~dV &amp;=\int_{\partial \Omega}\nabla u \cdot d\vec{S} \\
+	&amp;\approx\sum_{f_i\in \Omega}(\nabla u \cdot \vec{N})_{i}\tag{1}\label{eq:one} \\
+\end{align}\]
+
+<p>where \(f_i\) represents a face of the volume \(\Omega\) and \(\vec{N}_{f_i} = \vec{N}_i = (\vec{n}A)_i\) is the normal area vector for the face \(f_i\).
+We can also integrate and approximate the right-hand side as</p>
+
+\[\int_{\Omega}gdV\approx V_{\Omega}\bar{g}\tag{2}\label{eq:two}\]
+
+<p>Above, the integral \(\int_{\Omega}gdV\) is approximated by taking the value of \(g(x,y)\) at the center of the control volume times the total volume of the cell (\(V_{\Omega}\)).</p>
+
+<p>Equation \eqref{eq:two} is easy to code. But, looking at Equation \eqref{eq:one}, we need a way to express \(\nabla u\) at the cell face. Again applying Gauss’ law, it can be shown that for a nice function \(u\) over a volume \(V\) with faces \(f_i\), the value of the gradient \(\nabla u\) at the center of the volume can be approximated as</p>
+
+\[\begin{align}
+	\nabla u \approx \frac{1}{V}\sum_{f_i\in \partial V} u_{f_i}\vec{N}_i
+\end{align}\]
+
+<p>We want \(\nabla u\) at the face, so we need to introduce a different control volume centered at the face in order to apply the formula above.</p>
+
+<p>Look again at Equation \eqref{eq:one}. We want to evaluate</p>
+
+\[\begin{align}
+	\sum_{f_i\in \Omega}(\nabla u \cdot \vec{N})_{i} = (\nabla u \cdot \vec{N})_{1} + (\nabla u \cdot \vec{N})_{2} + (\nabla u \cdot \vec{N})_{3}
+\end{align}\]
+
+<p>so let us first consider \((\nabla u \cdot \vec{N})_{1}\), which is evaluated at \(f_1 \in \partial \Omega\), the first face of the original control volume \(\Omega\). First, we illustrate the surrounding control volumes.</p>
+
+<p style="text-align: center;">
+<embed src="/svg/poisson/finvol_surrounding.svg" type="image/svg+xml" />
+</p>
+
+<p>To evaluate \((\nabla u \cdot \vec{N})_1\), we must use the auxiliary control volume \(\Gamma_1=\Omega \cup \Lambda_1\) which has faces \(\{f_{11},f_{12},f_2,f_3\}=\partial\Gamma_1\). Thus we have</p>
+
+\[\begin{align}
+	(\nabla u \cdot \vec{N})_1 &amp;= \frac{1}{\Gamma_1}\sum_{f_j\in \partial \Gamma_1}(u\vec{N})_{f_j} \cdot \vec{N}_1 \\	
+							   &amp;= \frac{1}{\Gamma_1}\left((u\vec{N})_{f_{11}} + (u\vec{N})_{f_{12}} + (u\vec{N})_{f_2} + (u\vec{N})_{f_3}\right) \cdot \vec{N}_1 \\
+							   &amp;= \frac{1}{\Gamma_1}\left((u\vec{N})_{11} + (u\vec{N})_{12} + (u\vec{N})_2 + (u\vec{N})_3\right) \cdot \vec{N}_1 \tag{3}\label{eq:three}
+\end{align}\]
+
+<p>The auxiliary control volume \(\Gamma_1\) is outlined below in red, and \(\Gamma_2, \Gamma_3\) are defined similarly.</p>
+
+<p style="text-align: center;">
+<embed src="/svg/poisson/finvol_auxiliary.svg" type="image/svg+xml" />
+</p>
+
+<p>To compute Equation \eqref{eq:three}, we need to approximate the value of \(u\) at the cell faces \(f_2,f_3\in\partial \Omega\), and also at \(f_{11},f_{12}\), which are simply the faces of the neighboring volume \(\Lambda_1\). In a computational sense, we are solving for \(u_i\) implicitly at the cell centers of the triangles \(\Omega_i\), so we want to express the face values of \(u\) in terms of the cell center values. One approach is to use a weighted sum. The general formula for the value of \(u\) at a point \(f\) between points \(P\) and \(N\) is</p>
+
+\[u_f = \alpha u_P + (1-\alpha) u_N\]
+
+<p>where \(\alpha\) is defined as</p>
+
+\[\alpha = \frac{|\vec{r}_N-\vec{r}_f|}{|\vec{r}_P-\vec{r}_N|}\]
+
+<p>The geometry is illustrated below.</p>
+<p style="text-align: center;">
+<embed src="/svg/poisson/weightedsum.svg" type="image/svg+xml" />
+</p>
+
+<p>To apply the weighted sum formula to Equation \eqref{eq:one} , we should identify (or label) \(u\) at \(\Omega\) and all the surrounding cell centers. A clockwise labeling is shown below.</p>
+
+<p style="text-align: center;">
+<embed src="/svg/poisson/finvol_cwlabel.svg" type="image/svg+xml" />
+</p>
+
+<p>What does this labeling imply? Remember that we are solving implictly (i.e. forming a matrix system \(Au=b\)) for the values of \(u\) at the triangle centers \(\Omega_i\). The figure implies that each row of the resulting matrix \(A\) will have at least 10 nonzero column entries. Note that the labeling \(u_1,u_2,...\) is just for convenience. The actual index numbers are determined by the indexing of the unstructured mesh. In an unstructured mesh, neighboring cells may have indices that are very different from the index of the current cell under consideration.</p>
+
+<p>Using the labeling described above, we have</p>
+
+\[\begin{align*}
+	(\nabla u \cdot \vec{N})_1 = \frac{1}{\Gamma_1}\biggl(~&amp;\left((u_P\alpha + (1-\alpha)u_N)\vec{N}\right)_{f_{11}} \\ 
+	+ &amp;\left((u_P\alpha + (1-\alpha)u_N)\vec{N}\right)_{f_{12}}  \\
+	+ &amp;\left((u_P\alpha + (1-\alpha)u_N)\vec{N}\right)_{f_2}  \\
+	+ &amp;\left((u_P\alpha + (1-\alpha)u_N)\vec{N}\right)_{f_3} ~\biggr) \cdot \vec{N}_1
+\end{align*}\]
+
+<p>For \(f_{11}\), \(u_P=u_1\) and \(u_N=u_4\), and \(u_P,u_N\) can be decoded for the other faces as well. Thus we can write</p>
+
+\[\begin{align*}
+	(\nabla u \cdot \vec{N})_1 = \frac{1}{\Gamma_1}\biggl(~&amp;\left(u_1\alpha_{11} + (1-\alpha_{11})u_4\right)\vec{N_{11}} \\ 
+	+ &amp;\left(u_1\alpha_{12} + (1-\alpha_{12})u_5\right)\vec{N}_{12}  \\
+	+ &amp;\left(u_0\alpha_{2~} + (1-\alpha_{2~})u_{2~}\right)\vec{N}_{2~}  \\
+	+ &amp;\left(u_0\alpha_{3~} + (1-\alpha_{3~})u_{3~}\right)\vec{N}_{3~} ~\biggr) \cdot \vec{N}_1
+\end{align*}\]
+
+<p>Applying this methodology to Equation \eqref{eq:one} yields</p>
+
+\[\begin{align} \begin{split}
+	\sum_{f_i\in \Omega}(\nabla u \cdot \vec{N})_{i} 	&amp;= \sum_{f_i\in \Omega}\left( \frac{1}{\Gamma_i}\sum_{f_j\in\Gamma_i} \left(\alpha u_P+(1-\alpha)u_N\right)_{f_j}\vec{N}_{f_j}\right)\cdot \vec{N}_{f_i} \\
+	&amp;= (\nabla u \cdot \vec{N})_{1} + (\nabla u \cdot \vec{N})_{2} + (\nabla u \cdot \vec{N})_{3} \\
+	&amp;= \frac{1}{\Gamma_1}\biggl(~\left(u_1\alpha_{11} + (1-\alpha_{11})u_4\right)\vec{N_{11}} + \left(u_1\alpha_{12} + (1-\alpha_{12})u_5\right)\vec{N}_{12}  \\
+	&amp;~~~~~~~~+ \left(u_0\alpha_{2~} + (1-\alpha_{2~})u_{2~}\right)\vec{N}_{2~} + \left(u_0\alpha_{3~} + (1-\alpha_{3~})u_{3~}\right)\vec{N}_{3~} ~\biggr) \cdot \vec{N}_1 \\
+	&amp;+ \frac{1}{\Gamma_2}\biggl(~\left(u_2\alpha_{21} + (1-\alpha_{21})u_6\right)\vec{N_{21}} + \left(u_2\alpha_{22} + (1-\alpha_{22})u_7\right)\vec{N}_{22}  \\
+	&amp;~~~~~~~~+ \left(u_0\alpha_{3~} + (1-\alpha_{3~})u_{3~}\right)\vec{N}_{3~} + \left(u_0\alpha_{1~} + (1-\alpha_{1~})u_{1~}\right)\vec{N}_{1~} ~\biggr) \cdot \vec{N}_2 \\
+	&amp;+ \frac{1}{\Gamma_3}\biggl(~\left(u_3\alpha_{31} + (1-\alpha_{31})u_8\right)\vec{N_{31}} + \left(u_3\alpha_{32} + (1-\alpha_{32})u_9\right)\vec{N}_{32}  \\
+	&amp;~~~~~~~~+ \left(u_0\alpha_{1~} + (1-\alpha_{1~})u_{1~}\right)\vec{N}_{1~} + \left(u_0\alpha_{2~} + (1-\alpha_{2~})u_{2~}\right)\vec{N}_{2~} ~\biggr) \cdot \vec{N}_3
+\end{split}\end{align}\]
+
+<p>To build the matrix \(A\) in \(Au=b\), we need to group like coefficients. Rearranging the mess of equations directly above, we find</p>
+
+\[\begin{align*}
+\begin{split}
+	\sum_{f_i\in \Omega}(\nabla u \cdot \vec{N})_{i} &amp;= u_0\left( \frac{1}{\Gamma_1}(\alpha_2\vec{N}_2+\alpha_3\vec{N}_3)\cdot\vec{N}_1 + \frac{1}{\Gamma_2}(\alpha_1\vec{N}_1+\alpha_3\vec{N}_3)\cdot\vec{N}_2 + \frac{1}{\Gamma_3}(\alpha_1\vec{N}_1+\alpha_2\vec{N}_2)\cdot\vec{N}_3 \right) \\
+	&amp;~+u_1\left( \frac{1}{\Gamma_1}(\alpha_{11}\vec{N}_{11}+\alpha_{12}\vec{N}_{12})\cdot\vec{N}_1 + \frac{1}{\Gamma_2} (1-\alpha_1)\vec{N}_1\cdot\vec{N}_2 +\frac{1}{\Gamma_3}(1-\alpha_1)\vec{N}_1\cdot\vec{N}_3\right) \\
+	&amp;~+u_2\left( \frac{1}{\Gamma_1}(1-\alpha_2)\vec{N}_2\cdot\vec{N}_1 + \frac{1}{\Gamma_2}(\alpha_{21}\vec{N}_{21}+\alpha_{22}\vec{N}_{22})\cdot\vec{N}_2 + \frac{1}{\Gamma_3}(1-\alpha_2)\vec{N}_2\cdot\vec{N}_3 \right) \\
+	&amp;~+u_3\left( \frac{1}{\Gamma_1}(1-\alpha_3)\vec{N}_3\cdot\vec{N}_1 + \frac{1}{\Gamma_2}(1-\alpha_3)\vec{N}_3\cdot\vec{N}_2 + \frac{1}{\Gamma_3}(\alpha_{31}\vec{N}_{31}+\alpha_{32}\vec{N}_{32})\cdot\vec{N}_3 \right) \\
+	&amp;~+u_4\frac{1}{\Gamma_1}(1-\alpha_{11})\vec{N}_{11}\cdot\vec{N}_1 \\
+	&amp;~+u_5\frac{1}{\Gamma_1}(1-\alpha_{12})\vec{N}_{12}\cdot\vec{N}_1 \\
+	&amp;~+u_6\frac{1}{\Gamma_2}(1-\alpha_{21})\vec{N}_{21}\cdot\vec{N}_2 \\
+	&amp;~+u_7\frac{1}{\Gamma_2}(1-\alpha_{22})\vec{N}_{22}\cdot\vec{N}_2 \\
+	&amp;~+u_8\frac{1}{\Gamma_3}(1-\alpha_{31})\vec{N}_{31}\cdot\vec{N}_3 \\
+	&amp;~+u_9\frac{1}{\Gamma_3}(1-\alpha_{32})\vec{N}_{32}\cdot\vec{N}_3
+\end{split}
+\end{align*}\]
+
+<p>And these are the elements of row \(i\) (corresponding to cell \(\Omega_i\)) in a matrix \(A\) for the system \(A\vec{u}=\vec{b}\), where \(b_i=V_{\Omega_i}g_i\). The matrix coefficients for \(u_0, u_2, ..., u_9\) go into columns corresponding to the cell IDs of \(u_0, u_2, ..., u_9\). (Again, the exact cell IDs are determined during the unstructured meshing. In my code, I use an external library that produces the mesh and indices.)</p>
+
+<p>In the case that one of \(\{f_1,f_2,f_3\} \in \partial \Omega\) is on the boundary of \(D\), we compute the directional derivative between the cell centroid and the boundary face. Then we project to obtain the gradient values at the face. For example, suppose that \(f_1\) is on the boundary.</p>
+
+<p style="text-align: center;">
+<embed src="/svg/poisson/directional_derivative.svg" type="image/svg+xml" />
+</p>
+
+<p>To compute \((\nabla u \cdot \vec{N})_{f_1}\), we first find the directional derivative between the center of face \(f_1\) and the cell centroid of \(\Omega\).</p>
+
+\[\begin{align}
+	\frac{d}{dn_{f_1}}u = \frac{u_0-u_{f_1}}{\Delta z} = \frac{u_0-u_{\partial D}}{\Delta z}
+\end{align}\]
+
+<p>where \(\Delta z\) is the straight line distance between the cell cetroid and the center of face \(f_1\).</p>
+
+<p style="text-align: center;">
+<embed src="/svg/poisson/boundarycase.svg" type="image/svg+xml" />
+</p>
+
+<p>To compute the gradient at the face, we project \(\frac{du}{dn_{f_1}}\) to obtain \(\frac{du}{dx}\) and \(\frac{du}{dy}\).</p>
+
+\[\begin{align}
+	\frac{du}{dx} &amp;= \frac{du}{dn_{f_1}}\cos\theta = \frac{du}{dn_{f_1}}\frac{\Delta x}{\Delta z} \\
+	\frac{du}{dy} &amp;= \frac{du}{dn_{f_1}}\sin\theta = \frac{du}{dn_{f_1}}\frac{\Delta y}{\Delta z}
+\end{align}\]
+
+<p>Hence, \((\nabla u \cdot \vec{N})_{f_1}\) is given by</p>
+
+\[\begin{align}
+	(\nabla u \cdot \vec{N})_{f_1} &amp;= \left(\frac{du}{dx},\frac{du}{dy}\right)_{f_1} \cdot \vec{N}_{f_1} \\
+	&amp;= \frac{du}{dn_{f_1}}\left(\frac{\Delta x}{\Delta z},\frac{\Delta y}{\Delta z}\right) \cdot \vec{N}_{f_1} \\
+	&amp;= \frac{u_0-u_{f_1}}{\Delta z}\left(\frac{\Delta x}{\Delta z},\frac{\Delta y}{\Delta z}\right) \cdot \vec{N}_{f_1} \\
+	&amp;= u_0\frac{\left(\Delta x,\Delta y\right)}{\Delta z^2} \cdot \vec{N}_{f_1} - u_{\partial D}\frac{\left(\Delta x,\Delta y\right)}{\Delta z^2} \cdot \vec{N}_{f_1}
+\end{align}\]
+
+<p>We can plug this into Equation \eqref{eq:one} and again rearrange to find the matrix coefficients. However, since \(u_{\partial D}\) is known as the boundary condition, its value would be moved to the right-hand side to contribute to \(b\) in \(Au=b\).</p>
+
+<h2 id="code-and-results">Code and Results</h2>
+
+<p>The code for this project is available at. The unstructured mesh was generated using <a href="https://github.com/dengwirda/mesh2d">MESH2D</a>, a matlab library written by Darren Engwirda. I wrote code to index the mesh cells and faces as well as calculate the cell areas, centroids, and face normals.</p>
+
+<p float="left">
+  <img src="/assets/2020-05-05-poisson/mesh_coarse_unlabeled.svg" width="350" />
+  <img src="/assets/2020-05-05-poisson/mesh_coarse.svg" width="350" /> 
+</p>
+
+<p>With the labeled mesh, the code then loops over each cell and uses the cell neighbors to create a row of the matrix system \(Au=b\) following the mathematics from the discretization section. Let’s look at some results. I used a right-hand side \(g(x,y) = 20\cos(\pi(x+\frac{1}{2}))\sin(2\pi y)\) on a unit square domain:</p>
+
+<p><img src="/assets/2020-05-05-poisson/g(x,y)fd.svg" alt="g(x,y)" /></p>
+
+<p>I used a more detailed unstructured mesh to find the solution \(u(x,y)\), and I compared against a finite difference method using a structured mesh with even spacing and 100 nodes in each direction. Here’s the more resolved unstructured mesh.</p>
+
+<p><img src="/assets/2020-05-05-poisson/mesh_fine.svg" alt="resolved unstructured mesh" /></p>
+
+<p>And here are the results. The unstructured result is shown on the left, and the structured finite difference result is shown on the right.</p>
+
+<p float="left">
+  <img src="/assets/2020-05-05-poisson/soln_very_fine.svg" width="350" />
+  <img src="/assets/2020-05-05-poisson/soln_fine_fd.svg" width="350" /> 
+</p>
+
+<p>Overall, the numerical solutions look pretty similar. The unstructured method does have some “jaggedness”, whereas the finite difference method is smoother. This could be due to a bug in my code or an inherent property of the numerical method that I devised. Here’s a zoomed in view of the unstructured solution.</p>
+
+<p><img src="/assets/2020-05-05-poisson/soln_very_fine.svg" alt="unstructured soln" /></p>
+
+<p>I always think it’s fun to look at the sparsity structure resulting from a given discritezation. The sparsity structure depends on the order of accuracy of the method and the labeling scheme. One thing to note: the matrix appears to be symmetric. This makes sense, as the code looks for the neighbors of each cell. If you’re my neighbor, then I’m your neighbor too.</p>
+
+<p><img src="/assets/2020-05-05-poisson/sparsity.svg" alt="sparsity" /></p>
+
+<h2 id="closing-thoughts">Closing thoughts</h2>
+
+<p>I derived this method and wrote the code in the summer of 2019. At the time, I had studied finite difference, finite volume, and finite element methods just enough to be dangerous with each of them. In general, I have strong discretization and coding skills but weaker theory skills. I’m sure that a mathematician could tell me why this method is silly in light of the known numerical theory regarding the Poisson equation. Nonetheless, the code appears to work (at least when compared to my finite difference implementation)! Processing the unstructured mesh is slow, especially for a resolved mesh. I had lots of fun working with an unstructured mesh for the first time.</p>]]></content><author><name>Nick</name></author><summary type="html"><![CDATA[Introduction What’s in this blog post? What is the Poisson equation? Where does the Poisson equation show up? How can we solve it?]]></summary></entry></feed>
