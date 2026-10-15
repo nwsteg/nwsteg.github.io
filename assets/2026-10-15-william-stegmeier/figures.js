@@ -222,56 +222,67 @@
   function enhanceCrops(data) {
     const figure = document.querySelector("#crop-figure");
     if (!figure) return;
-    const choices = [...figure.querySelectorAll("[data-crop]")];
-    const panel = figure.querySelector("#crop-detail");
-    let selected = data.crops[0];
-
-    function choosePart(index) {
-      const part = selected.parts[index];
-      panel.querySelectorAll("[data-crop-part]").forEach(button => button.setAttribute("aria-pressed", String(Number(button.dataset.cropPart) === index)));
-      panel.querySelector(".crop-part-title").textContent = `${index + 1}. ${part.name}`;
-      panel.querySelector(".crop-part-text").textContent = part.text;
-    }
+    const tabs = [...figure.querySelectorAll(".crop-tab")];
+    const panels = [...figure.querySelectorAll("[data-crop-panel]")];
+    const tablist = figure.querySelector(".crop-tabs");
+    tablist.setAttribute("role", "tablist");
 
     function choose(id) {
-      selected = data.crops.find(crop => crop.id === id);
-      if (!selected) return;
-      choices.forEach(choice => choice.setAttribute("aria-pressed", String(choice.dataset.crop === id)));
-      panel.innerHTML = `<div class="explorer-heading"><p class="figure-kicker">A closer look · ${escape(selected.latin)}</p><div class="explorer-nav"><button type="button" data-crop-step="-1" aria-label="Previous crop">←</button><button type="button" data-crop-step="1" aria-label="Next crop">→</button></div></div><div class="crop-exploration"><div class="crop-anatomy"><img src="${base}${selected.id}.svg" alt="${escape(selected.name)} illustration with three numbered features to explore."><div class="crop-part-markers">${selected.parts.map((part, index) => `<button type="button" style="left:${part.x}%;top:${part.y}%" data-crop-part="${index}" aria-label="${index + 1}. ${escape(part.name)}" aria-controls="crop-part-copy" aria-pressed="false">${index + 1}</button>`).join("")}</div></div><div class="crop-exploration-copy"><h4 id="crop-detail-title">${escape(selected.name)}</h4><p class="part-instruction">Select a number on the drawing to explore the plant.</p><div id="crop-part-copy" class="crop-part-copy" aria-live="polite"><h5 class="crop-part-title"></h5><p class="crop-part-text"></p></div><h5 class="crop-work-title">In Bill’s research</h5><p>${escape(selected.work)}</p><div class="crop-reading"><a class="evidence-source" href="${escape(selected.source)}">${escape(selected.sourceLabel)} →</a><a class="evidence-source" href="${escape(selected.botany)}">Open the botanical reference →</a></div></div></div>`;
-      panel.hidden = false;
-      panel.querySelectorAll("[data-crop-part]").forEach(button => button.addEventListener("click", () => choosePart(Number(button.dataset.cropPart))));
-      panel.querySelectorAll("[data-crop-step]").forEach(button => button.addEventListener("click", () => {
-        const index = data.crops.indexOf(selected);
-        const direction = button.dataset.cropStep;
-        const next = (index + Number(direction) + data.crops.length) % data.crops.length;
-        choose(data.crops[next].id);
-        panel.querySelector(`[data-crop-step="${direction}"]`).focus({ preventScroll: true });
-      }));
-      choosePart(0);
+      tabs.forEach(tab => {
+        const active = tab.dataset.crop === id;
+        tab.setAttribute("aria-selected", String(active));
+        tab.tabIndex = active ? 0 : -1;
+      });
+      panels.forEach(panel => { panel.hidden = panel.dataset.cropPanel !== id; });
     }
 
-    choices.forEach((choice, index) => {
-      choice.setAttribute("role", "button");
-      choice.setAttribute("aria-label", `Explore ${data.crops[index].name}`);
-      choice.setAttribute("aria-controls", "crop-detail");
-      choice.addEventListener("click", event => {
+    data.crops.forEach(crop => {
+      const panel = panels.find(item => item.dataset.cropPanel === crop.id);
+      panel.setAttribute("role", "tabpanel");
+      panel.setAttribute("aria-labelledby", `crop-tab-${crop.id}`);
+      panel.tabIndex = 0;
+      panel.querySelectorAll("[data-enhanced-only]").forEach(item => { item.hidden = false; });
+      function choosePart(index, reveal = true) {
+        const part = crop.parts[index];
+        if (reveal) panel.querySelector(".crop-plant-notes").open = true;
+        panel.querySelectorAll("[data-crop-part]").forEach(button => button.setAttribute("aria-pressed", String(Number(button.dataset.cropPart) === index)));
+        panel.querySelector(".crop-part-title").textContent = `${index + 1}. ${part.name}`;
+        panel.querySelector(".crop-part-text").textContent = part.text;
+      }
+      panel.querySelectorAll("[data-crop-part]").forEach(button => button.addEventListener("click", () => choosePart(Number(button.dataset.cropPart))));
+      choosePart(0, false);
+    });
+
+    tabs.forEach((tab, index) => {
+      tab.setAttribute("role", "tab");
+      tab.setAttribute("aria-controls", `crop-panel-${tab.dataset.crop}`);
+      tab.addEventListener("click", event => {
+        if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
         event.preventDefault();
-        choose(choice.dataset.crop);
-        if (window.matchMedia("(max-width: 800px)").matches) panel.scrollIntoView({ block: "start", behavior: reducedMotion() ? "auto" : "smooth" });
+        choose(tab.dataset.crop);
       });
-      choice.addEventListener("keydown", event => {
-        if (event.key === " ") { event.preventDefault(); choice.click(); }
-        if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+      tab.addEventListener("keydown", event => {
+        let next;
+        if (event.key === "ArrowRight") next = (index + 1) % tabs.length;
+        if (event.key === "ArrowLeft") next = (index - 1 + tabs.length) % tabs.length;
+        if (event.key === "Home") next = 0;
+        if (event.key === "End") next = tabs.length - 1;
+        if (next !== undefined) {
           event.preventDefault();
-          const next = (index + (event.key === "ArrowRight" ? 1 : -1) + choices.length) % choices.length;
-          choose(choices[next].dataset.crop);
-          choices[next].focus({ preventScroll: true });
-          choices[next].scrollIntoView({ block: "nearest", inline: "nearest", behavior: reducedMotion() ? "auto" : "smooth" });
+          choose(tabs[next].dataset.crop);
+          tabs[next].focus({ preventScroll: true });
         }
+        if (event.key === " ") { event.preventDefault(); tab.click(); }
       });
     });
     figure.dataset.enhanced = "true";
-    choose(selected.id);
+    const initial = tabs.find(tab => tab.hash === window.location.hash) || tabs[0];
+    choose(initial.dataset.crop);
+    // Preserve direct links to a crop panel, including browser back/forward.
+    window.addEventListener("hashchange", () => {
+      const match = tabs.find(tab => tab.hash === window.location.hash);
+      if (match) choose(match.dataset.crop);
+    });
   }
 
   enhanceViewer();

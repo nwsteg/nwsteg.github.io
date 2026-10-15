@@ -341,7 +341,7 @@
       "id": "pearl-millet",
       "name": "Pearl millet",
       "latin": "Cenchrus americanus",
-      "work": "Bill selected for earlier flowering, shorter plants and larger seed. His breeding stocks became parents of hybrids grown in India.",
+      "work": "At Hays, Bill selected for earlier flowering, shorter plants and larger seed. His stocks, further selected at ICRISAT in India, became 842A/B and 843A/B: parents for commercial hybrids and future breeding.",
       "source": "/assets/2026-10-15-william-stegmeier/sources/research/02_Pearl_Millet_Research/1984_Pearl_Millet_Potential_Crop_Kansas_SRL77.pdf",
       "sourceLabel": "Read the millet bulletin",
       "botany": "/assets/2026-10-15-william-stegmeier/sources/botany/usda-pearl-millet-plant-guide.pdf",
@@ -364,13 +364,38 @@
           "y": 85,
           "text": "Leaves attach around the stem at sheathing bases. The joints are called nodes."
         }
+      ],
+      "role": "Breeding & hybrid parents",
+      "metrics": [
+        {
+          "value": "5 million+",
+          "label": "acres in India in a given year, reported by 1997",
+          "source": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/2001_History_ARC_Hays_SB663B.pdf#page=12"
+        },
+        {
+          "value": "37 of 49",
+          "label": "promising ICRISAT seed parents with 843B in their pedigrees, 1981–1998",
+          "source": "/assets/2026-10-15-william-stegmeier/sources/research/02_Pearl_Millet_Research/1998_Pearl_Millet_Parental_Lines_843A_843B_EXCERPT.pdf#page=2"
+        }
+      ],
+      "impact": "Earlier maturity could fit a harvest into a short rainy season. HHB 67, with 843A as its seed parent, matured in about 65–70 days. Sharing these parents let other breeders combine that trait with local adaptation and disease resistance.",
+      "context": "The acreage estimate covers hybrids descended from the Hays program. The 49 lines are one ICRISAT breeding group, rather than all Indian hybrids. These were achievements of an international collaboration.",
+      "references": [
+        {
+          "label": "Hays history · p. 55",
+          "url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/2001_History_ARC_Hays_SB663B.pdf#page=12"
+        },
+        {
+          "label": "843A/B paper · pp. 129–130",
+          "url": "/assets/2026-10-15-william-stegmeier/sources/research/02_Pearl_Millet_Research/1998_Pearl_Millet_Parental_Lines_843A_843B_EXCERPT.pdf#page=1"
+        }
       ]
     },
     {
       "id": "sunflower",
       "name": "Sunflower",
       "latin": "Helianthus annuus",
-      "work": "At Hays, Bill bred sunflower for better yields and resistance to insects and disease, helping develop it as a Kansas crop.",
+      "work": "Bill bred sunflower at Hays for yield and resistance to insects and disease. He also cooperated in Kansas performance trials that compared commercial hybrids under local conditions.",
       "source": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/2001_History_ARC_Hays_SB663B.pdf#page=12",
       "sourceLabel": "Read the sunflower history",
       "botany": "/assets/2026-10-15-william-stegmeier/sources/botany/usda-annual-sunflower-plant-guide.pdf",
@@ -393,13 +418,38 @@
           "y": 88,
           "text": "The upright stem supports the leaves and heavy head. Cultivated sunflower forms vary in branching and head size."
         }
+      ],
+      "role": "Breeding & field testing",
+      "metrics": [
+        {
+          "value": "988–1,844",
+          "label": "lb of seed per acre across hybrids at Hays, 1994",
+          "source": "/assets/2026-10-15-william-stegmeier/sources/research/03_Sunflower_Research/1995_1994_Kansas_Sunflower_Performance_SRP725.pdf#page=13"
+        },
+        {
+          "value": "37.2–44.8%",
+          "label": "seed oil content in the same Hays trial",
+          "source": "/assets/2026-10-15-william-stegmeier/sources/research/03_Sunflower_Research/1995_1994_Kansas_Sunflower_Performance_SRP725.pdf#page=13"
+        }
+      ],
+      "impact": "An oilseed crop offered farmers another product to sell. Comparing seed yield, oil yield, maturity and lodging helped them judge which hybrids might suit their farms. The station history credits his breeding work with helping sunflower gain acceptance in Kansas.",
+      "context": "These are trial results for commercial and experimental entries, rather than gains caused by Bill’s breeding. Late-season drought stressed the 1994 crop; the report recommends comparing several years and locations.",
+      "references": [
+        {
+          "label": "Hays trial · Table 5",
+          "url": "/assets/2026-10-15-william-stegmeier/sources/research/03_Sunflower_Research/1995_1994_Kansas_Sunflower_Performance_SRP725.pdf#page=13"
+        },
+        {
+          "label": "Breeding history · p. 55",
+          "url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/2001_History_ARC_Hays_SB663B.pdf#page=12"
+        }
       ]
     },
     {
       "id": "canola",
       "name": "Canola",
       "latin": "Brassica napus",
-      "work": "Bill contributed to cooperative canola trials across the Great Plains, helping assess varieties under regional growing conditions.",
+      "work": "Bill was a Hays cooperator in the Great Plains canola research network. Trials tested winter survival, flowering and yield to identify oilseed material suited to the region.",
       "source": "/assets/2026-10-15-william-stegmeier/sources/research/05_Canola_and_Rapeseed/1996_1995_Great_Plains_Canola_Research_SRP763.pdf",
       "sourceLabel": "Read the canola trials",
       "botany": "/assets/2026-10-15-william-stegmeier/sources/botany/cfia-brassica-napus-biology.html",
@@ -422,13 +472,38 @@
           "y": 75,
           "text": "Lower leaves are lobed and blue-green. Upper leaves are smaller and clasp the stem."
         }
+      ],
+      "role": "Regional collaboration",
+      "metrics": [
+        {
+          "value": "31 sites",
+          "label": "planted in 12 states for the 1997 advanced nursery",
+          "source": "/assets/2026-10-15-william-stegmeier/sources/research/05_Canola_and_Rapeseed/1998_1997_Great_Plains_Canola_Research_SRP803.pdf#page=4"
+        },
+        {
+          "value": "21 harvested",
+          "label": "sites produced harvest data in that season",
+          "source": "/assets/2026-10-15-william-stegmeier/sources/research/05_Canola_and_Rapeseed/1998_1997_Great_Plains_Canola_Research_SRP803.pdf#page=4"
+        }
+      ],
+      "impact": "Canola offered edible oil and a protein-rich meal for livestock. Regional testing helped distinguish plants that could survive Great Plains winters from promising varieties adapted elsewhere. The 1995 advanced trials included lines first selected at Hays, Colby and Columbia.",
+      "context": "In 1997, seven sites had at least one line above 3,000 lb of seed per acre. Hays itself was not harvested because of bird damage. Those results show regional potential, rather than a Hays yield or a measured adoption benefit.",
+      "references": [
+        {
+          "label": "1997 network · pp. 1–2",
+          "url": "/assets/2026-10-15-william-stegmeier/sources/research/05_Canola_and_Rapeseed/1998_1997_Great_Plains_Canola_Research_SRP803.pdf#page=3"
+        },
+        {
+          "label": "1995 selections · p. 2",
+          "url": "/assets/2026-10-15-william-stegmeier/sources/research/05_Canola_and_Rapeseed/1996_1995_Great_Plains_Canola_Research_SRP763.pdf#page=4"
+        }
       ]
     },
     {
       "id": "sorghum",
       "name": "Sorghum",
       "latin": "Sorghum bicolor",
-      "work": "Sorghum was a familiar dryland comparison in millet trials. Bill also coauthored research on wheat streak mosaic virus in both crops.",
+      "work": "Sorghum provided a dryland benchmark for Bill’s millet work. At Hays, he also coauthored a study prompted by virus-like symptoms in sorghum and pearl millet in 1994.",
       "source": "/assets/2026-10-15-william-stegmeier/sources/research/04_Sorghum_and_Plant_Disease/1996_Natural_Infection_Pearl_Millet_Sorghum_WSMV.pdf",
       "sourceLabel": "Read the virus study",
       "botany": "/assets/2026-10-15-william-stegmeier/sources/botany/ksu-sorghum-growth-and-development.pdf",
@@ -450,6 +525,31 @@
           "x": 58,
           "y": 90,
           "text": "A sturdy jointed stem supports the grain head. Its nodes mark the points where leaves attach."
+        }
+      ],
+      "role": "Field & disease research",
+      "metrics": [
+        {
+          "value": "71",
+          "label": "sorghum lines included in greenhouse inoculation tests",
+          "source": "/assets/2026-10-15-william-stegmeier/sources/research/04_Sorghum_and_Plant_Disease/1996_Natural_Infection_Pearl_Millet_Sorghum_WSMV.pdf#page=2"
+        },
+        {
+          "value": "40",
+          "label": "pearl millet lines in the same screening experiments",
+          "source": "/assets/2026-10-15-william-stegmeier/sources/research/04_Sorghum_and_Plant_Disease/1996_Natural_Infection_Pearl_Millet_Sorghum_WSMV.pdf#page=2"
+        }
+      ],
+      "impact": "The team established natural infection of both crops by wheat streak mosaic virus and demonstrated transmission by wheat curl mites. Sorghum responses differed among virus isolates, showing why a single test strain could miss susceptibility.",
+      "context": "The study expanded the known host range and supported better disease screening. Its line counts describe experiments; the paper does not quantify farm income or crop losses prevented.",
+      "references": [
+        {
+          "label": "Virus study · pp. 179–185",
+          "url": "/assets/2026-10-15-william-stegmeier/sources/research/04_Sorghum_and_Plant_Disease/1996_Natural_Infection_Pearl_Millet_Sorghum_WSMV.pdf#page=1"
+        },
+        {
+          "label": "Millet comparison · p. 51",
+          "url": "/assets/2026-10-15-william-stegmeier/sources/research/02_Pearl_Millet_Research/1993_Field_Day_Report_SRP689.pdf#page=55"
         }
       ]
     }

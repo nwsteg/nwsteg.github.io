@@ -89,6 +89,22 @@
   clear: both;
 }
 
+.stegmeier-post .station-years { margin-top: 36px; }
+.stegmeier-post #hays-station h2 { margin-top: 10px; }
+.stegmeier-post .station-feature { margin: 30px 0; padding: 24px; border: 1px solid #dedfd2; border-radius: 4px; background: #f8f6ee; }
+.stegmeier-post .station-gallery { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 30px; align-items: start; }
+.stegmeier-post .station-gallery figure { margin: 8px 0 0; }
+.stegmeier-post .station-photo-pair { display: grid; gap: 16px; }
+.stegmeier-post .station-photo-pair .photo-zoom { width: 100%; max-width: 260px; }
+.stegmeier-post .station-gallery figcaption { font-size: 11px; }
+.stegmeier-post .station-photo-pair .photo-zoom-label { right: 6px; bottom: 6px; font-size: 9px; }
+@media screen and (max-width: 600px) {
+  .stegmeier-post .station-feature { padding: 20px; }
+  .stegmeier-post .station-gallery { grid-template-columns: 1fr; gap: 25px; }
+  .stegmeier-post .station-grounds { max-width: 260px; margin-inline: auto; }
+  .stegmeier-post .station-person { max-width: 240px; margin-inline: auto; }
+}
+
 .stegmeier-post sup {
   font-size: 0.7em;
   line-height: 0;
@@ -412,30 +428,6 @@
 .stegmeier-post .place-list strong { display: block; font-size: 12px; line-height: 1.5; font-weight: 600; }
 .stegmeier-post .place-list div > span { display: block; font-size: 11px; line-height: 1.6; color: #68735f; margin-top: 2px; }
 
-.stegmeier-post .crops-figure {
-  box-sizing: border-box;
-  position: relative;
-  left: 50%;
-  width: min(1080px, calc(100vw - 60px));
-  max-width: none;
-  transform: translateX(-50%);
-}
-.stegmeier-post .crop-scroll { overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: thin; scrollbar-color: #abb69a #edeedf; padding-bottom: 16px; }
-.stegmeier-post .crop-scroll:focus-visible { outline: 2px solid var(--field-green); outline-offset: 5px; }
-.stegmeier-post .crop-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; min-width: 720px; }
-.stegmeier-post .crop-specimen { padding: 0 0 12px; text-align: center; }
-.stegmeier-post .crop-specimen img { display: block; width: 155px; height: 248px; max-width: 100%; margin: 0 auto 16px; }
-.stegmeier-post .crop-specimen .crop-role { min-height: 28px; margin: 0 0 5px; color: #647452; font-size: 9px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; line-height: 1.5; }
-.stegmeier-post .crop-specimen h4 { margin: 0 0 5px; font: 25px/1.2 Georgia, "Times New Roman", serif; }
-.stegmeier-post .crop-specimen .crop-latin { margin: 0 0 13px; color: #778069; font: italic 12px/1.5 Georgia, "Times New Roman", serif; }
-.stegmeier-post .crop-specimen > p:last-child { max-width: 240px; margin: 0 auto; color: #606d59; font-size: 14px; line-height: 1.65; }
-.stegmeier-post .crop-scroll-hint { display: none; }
-.stegmeier-post .timeline-list .milestone-school { --milestone-color: var(--field-plum); }
-.stegmeier-post .other-crops { margin-top: 5px; border-top: 1px solid var(--field-rule); padding-top: 20px; }
-.stegmeier-post .other-crops h4 { margin: 0 0 12px; color: #5d6c53; font-size: 11px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
-.stegmeier-post .other-crops ul { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 0; padding: 0; list-style: none; }
-.stegmeier-post .other-crops li { margin: 0; font-size: 13px; color: #64725b; }
-
 @media screen and (max-width: 600px) {
   .stegmeier-post .research-figure { padding: 22px 18px; margin: 2em 0; }
   .stegmeier-post .figure-heading h3 { font-size: 27px; }
@@ -458,27 +450,76 @@
   .stegmeier-post .place-list strong { font-size: 11px; }
   .stegmeier-post .place-list div > span { font-size: 10px; }
   .stegmeier-post .map-key { gap: 6px 12px; font-size: 10px; }
-  .stegmeier-post .crop-specimen h4 { font-size: 23px; }
 }
 
 @media print {
   .stegmeier-post .research-figure, .stegmeier-post .service-note { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  .stegmeier-post .timeline-list li, .stegmeier-post .crop-specimen { break-inside: avoid; }
-}
-
-@media screen and (max-width: 800px) {
-  .stegmeier-post .crops-figure { left: auto; width: 100%; transform: none; }
-  .stegmeier-post .crop-scroll-hint { display: block; margin: -5px 0 18px; color: #68785b; font-size: 12px; }
-  .stegmeier-post .crop-scroll { scroll-snap-type: x proximity; }
-  .stegmeier-post .crop-specimen { scroll-snap-align: start; }
-}
-@media print {
-  .stegmeier-post .crops-figure { left: auto; width: 100%; transform: none; }
-  .stegmeier-post .crop-grid { min-width: 0; gap: 12px; }
-  .stegmeier-post .crop-scroll { overflow: visible; }
+  .stegmeier-post .timeline-list li { break-inside: avoid; }
 }
 
 /* Source-led interactions keep the printed figures and original links useful. */
+/* Compact crop tabs retain the full, readable panels when scripting is unavailable. */
+.stegmeier-post .crops-figure { box-sizing: border-box; position: relative; left: 50%; width: min(880px, calc(100vw - 60px)); max-width: none; transform: translateX(-50%); padding: 25px; }
+.stegmeier-post .crops-figure .figure-heading > p:last-child { margin-bottom: 20px; }
+.stegmeier-post .crop-tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-bottom: 0; }
+.stegmeier-post .crop-tabs .crop-tab { display: grid; place-items: center; min-height: 43px; padding: 6px 5px; box-sizing: border-box; border: 1px solid #d7ddca; border-radius: 4px 4px 0 0; background: #eef0e5; color: #506344; font: 600 12px/1.4 system-ui, sans-serif; text-decoration: none; text-align: center; }
+.stegmeier-post .crop-tab:hover { background: #e4ead8; }
+.stegmeier-post .crop-tabs .crop-tab[aria-selected="true"] { background: #3f5e45; border-color: #3f5e45; color: #fff; }
+.stegmeier-post .crop-tab:focus-visible, .stegmeier-post .crop-panel:focus-visible { outline: 2px solid #587783; outline-offset: 3px; }
+.stegmeier-post .crop-panel { padding: 25px 20px 20px; border: 1px solid #d5ddc7; background: #fffdf8; margin-bottom: 14px; }
+.stegmeier-post .crop-exploration { display: grid; grid-template-columns: 155px minmax(0, 1fr); align-items: start; gap: 24px; }
+.stegmeier-post .crop-botany { text-align: center; }
+.stegmeier-post .crop-anatomy { position: relative; width: 155px; height: 248px; margin: auto; }
+.stegmeier-post .crop-anatomy > img { display: block; width: 100%; height: 100%; }
+.stegmeier-post .crop-part-markers { position: absolute; inset: 0; }
+.stegmeier-post .crop-part-markers button { position: absolute; transform: translate(-50%, -50%); display: grid; place-items: center; width: 28px; height: 28px; padding: 0; border: 2px solid #fffdf8; border-radius: 50%; background: #748665; color: #fff; font: 600 11px/1 system-ui, sans-serif; cursor: pointer; box-shadow: 0 0 0 1px #748665; }
+.stegmeier-post .crop-part-markers button[aria-pressed="true"] { background: #3f5f44; box-shadow: 0 0 0 3px #dae4c9; }
+.stegmeier-post .crop-part-markers button:focus-visible { outline: 2px solid #587783; outline-offset: 4px; }
+.stegmeier-post .crop-plant-notes { margin-top: 10px; color: #617056; font-size: 10px; text-align: left; }
+.stegmeier-post .crop-part-copy { padding: 12px 0 7px; text-align: left; }
+.stegmeier-post .crop-part-instruction { margin: 0 0 10px; font-size: 10px; line-height: 1.5; color: #738066; }
+.stegmeier-post .crop-part-title { margin: 0 0 6px; font-size: 12px; color: #3e5b41; }
+.stegmeier-post .crop-part-copy .crop-part-text { margin-bottom: 8px; font-size: 11px; color: #617056; line-height: 1.6; }
+.stegmeier-post .crop-botanical-source { font-size: 10px; }
+.stegmeier-post .crop-exploration-copy .crop-role { margin: 0 0 7px; color: #647452; font-size: 9px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; line-height: 1.5; }
+.stegmeier-post .crop-exploration-copy h4 { margin: 0 0 12px; font: 29px/1.2 Georgia, serif; }
+.stegmeier-post .crop-exploration-copy h4 i { display: block; margin-top: 4px; font-size: 13px; color: #7b826d; }
+.stegmeier-post .crop-exploration-copy .crop-work, .stegmeier-post .crop-exploration-copy .crop-impact { color: #56664e; font-size: 13px; line-height: 1.65; margin-bottom: 14px; }
+.stegmeier-post .crop-exploration-copy h5 { margin: 0 0 7px; font-size: 13px; font-weight: 600; color: #3e5b41; }
+.stegmeier-post .crop-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; margin: 0 0 18px; padding: 14px 0; border-block: 1px solid #dfe4d3; }
+.stegmeier-post .crop-metrics > div { display: flex; flex-direction: column; }
+.stegmeier-post .crop-metrics dt { order: 2; color: #67765d; font-size: 10px; line-height: 1.6; }
+.stegmeier-post .crop-metrics dd { margin: 0 0 6px; font: 25px/1.1 Georgia, serif; letter-spacing: -.5px; }
+.stegmeier-post .crop-metrics a { color: #3e5b41; text-decoration-style: dotted; text-decoration-color: #a2b38e; text-underline-offset: 5px; }
+.stegmeier-post .crop-exploration-copy .crop-context { margin: 0 0 14px; color: #6e7766; font-size: 11px; line-height: 1.65; }
+.stegmeier-post .crop-notes { color: #67765d; font-size: 11px; line-height: 1.6; }
+.stegmeier-post .crop-notes summary { width: fit-content; }
+.stegmeier-post .crop-notes[open] summary { margin-bottom: 12px; }
+.stegmeier-post .crop-reading { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 11px; line-height: 1.6; }
+.stegmeier-post .other-crops { color: #5d6c53; font-size: 12px; }
+.stegmeier-post .other-crops summary { width: fit-content; }
+.stegmeier-post .other-crops ul { display: flex; flex-wrap: wrap; gap: 5px 16px; list-style: none; margin: 10px 0 0; padding: 0; }
+.stegmeier-post .crops-figure figcaption { margin-top: 16px; font-size: 10px; }
+@media screen and (max-width: 600px) {
+  .stegmeier-post .crops-figure { width: 100%; left: auto; transform: none; padding: 18px 13px; }
+  .stegmeier-post .crop-tabs { grid-template-columns: repeat(2, 1fr); gap: 5px; margin-bottom: 8px; }
+  .stegmeier-post .crop-tabs .crop-tab { border-radius: 3px; min-height: 44px; }
+  .stegmeier-post .crop-panel { padding: 20px 14px; }
+  .stegmeier-post .crop-exploration { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .stegmeier-post .crop-botany { display: grid; grid-template-columns: 115px minmax(0, 1fr); gap: 0 16px; align-items: center; }
+  .stegmeier-post .crop-anatomy { width: 115px; height: 184px; grid-row: span 2; }
+  .stegmeier-post .crop-part-markers button { width: 26px; height: 26px; }
+  .stegmeier-post .crop-botanical-source { text-align: left; }
+  .stegmeier-post .crop-plant-notes { align-self: end; }
+  .stegmeier-post .crop-metrics { gap: 12px; }
+  .stegmeier-post .crop-metrics dd { font-size: 24px; }
+}
+@media print {
+  .stegmeier-post .crop-tabs, .stegmeier-post .crop-part-markers, .stegmeier-post .crop-plant-notes { display: none !important; }
+  .stegmeier-post .crops-figure { left: auto; width: 100%; transform: none; }
+  .stegmeier-post .crop-panel[hidden] { display: block !important; }
+  .stegmeier-post .crop-panel { break-inside: avoid; }
+}
 .stegmeier-post .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .stegmeier-post [hidden] { display: none !important; }
 .stegmeier-post .interaction-hint { margin: -10px 0 15px; color: #62745b; font-size: 12px; line-height: 1.6; }
@@ -543,7 +584,6 @@
 .stegmeier-post .place-choice:hover,
 .stegmeier-post .place-choice[aria-pressed="true"] { background: #eef1e6; border-color: #d2dbc5; }
 .stegmeier-post .place-choice:focus-visible,
-.stegmeier-post .crop-choice:focus-visible,
 .stegmeier-post .explorer-nav button:focus-visible { outline: 2px solid #587783; outline-offset: 4px; }
 
 .stegmeier-post .milestone-evidence { margin-top: 9px; }
@@ -555,29 +595,6 @@
 .stegmeier-post .evidence-preview > span { display: block; margin-top: 6px; text-align: right; color: #66745f; font-size: 10px; }
 .stegmeier-post .milestone-record .evidence-source { margin-top: 9px; }
 .stegmeier-post .evidence-map-link { display: block; width: fit-content; margin-top: 9px; font-size: 11px; }
-
-.stegmeier-post .crop-specimen > .crop-choice { display: block; box-sizing: border-box; height: 100%; padding: 15px 9px; border: 1px solid transparent; border-radius: 4px; color: inherit; text-decoration: none; }
-.stegmeier-post .crop-specimen { padding-bottom: 0; }
-.stegmeier-post .crop-choice:hover,
-.stegmeier-post .crop-choice[aria-pressed="true"] { background: #eef1e3; border-color: #c1cda9; }
-.stegmeier-post .crop-choice > p:last-child { max-width: 240px; margin: 0 auto; color: #606d59; font-size: 14px; line-height: 1.65; }
-.stegmeier-post .crop-detail { margin: 10px 0 24px; padding: 22px 25px; border: 1px solid #d5ddc7; border-radius: 4px; background: #fffdf8; }
-.stegmeier-post .crop-exploration { display: grid; grid-template-columns: 200px 1fr; align-items: center; gap: 28px; max-width: 760px; margin: auto; }
-.stegmeier-post .crop-anatomy { position: relative; width: 200px; height: 320px; }
-.stegmeier-post .crop-anatomy > img { display: block; width: 200px; height: 320px; }
-.stegmeier-post .crop-part-markers { position: absolute; inset: 0; }
-.stegmeier-post .crop-part-markers button { position: absolute; transform: translate(-50%, -50%); display: grid; place-items: center; width: 26px; height: 26px; padding: 0; border: 2px solid #fffdf8; border-radius: 50%; background: #748665; color: #fff; font: 600 11px/1 system-ui, sans-serif; cursor: pointer; box-shadow: 0 0 0 1px #748665; }
-.stegmeier-post .crop-part-markers button[aria-pressed="true"] { background: #3f5f44; box-shadow: 0 0 0 3px #dae4c9; }
-.stegmeier-post .crop-part-markers button:focus-visible { outline: 2px solid #587783; outline-offset: 4px; }
-.stegmeier-post .crop-exploration-copy h4 { margin: 0 0 7px; font: 29px/1.2 Georgia, serif; }
-.stegmeier-post .crop-exploration-copy .part-instruction { margin: 0 0 16px; font-size: 11px; color: #74816a; }
-.stegmeier-post .crop-part-copy { min-height: 95px; padding: 13px 15px; background: #f1f4e9; border-left: 2px solid #8c9d78; }
-.stegmeier-post .crop-part-title,
-.stegmeier-post .crop-work-title { margin: 0 0 7px; color: #3e5b41; font-size: 13px; line-height: 1.4; font-weight: 600; }
-.stegmeier-post .crop-exploration-copy .crop-part-text { margin: 0; font-size: 13px; color: #617056; line-height: 1.6; }
-.stegmeier-post .crop-work-title { margin-top: 18px; }
-.stegmeier-post .crop-work-title + p { margin-bottom: 12px; color: #64715a; font-size: 13px; line-height: 1.65; }
-.stegmeier-post .crop-reading { display: flex; flex-wrap: wrap; gap: 8px 20px; }
 
 .stegmeier-post .photo-zoom { position: relative; display: block; text-decoration: none; }
 .stegmeier-post .photo-zoom-label { position: absolute; right: 10px; bottom: 10px; padding: 4px 9px; border: 1px solid #ffffff80; border-radius: 3px; background: #293f35df; color: #fff; font: 11px/1.5 system-ui, sans-serif; }
@@ -608,10 +625,6 @@
   .stegmeier-post .place-list .place-choice { gap: 6px; padding: 6px; margin: -6px; min-height: 55px; }
   .stegmeier-post .milestone-record { padding: 10px; }
   .stegmeier-post .evidence-preview img { height: 120px; }
-  .stegmeier-post .crop-detail { padding: 18px 13px; }
-  .stegmeier-post .crop-exploration { grid-template-columns: 1fr; gap: 16px; }
-  .stegmeier-post .crop-anatomy { margin: 0 auto; }
-  .stegmeier-post .crop-exploration-copy h4 { font-size: 27px; }
   .record-viewer { padding: 16px; width: calc(100vw - 18px); max-height: calc(100dvh - 18px); }
   .record-viewer-heading h2 { font-size: 23px; }
   .record-viewer-image { max-height: 60dvh; }
@@ -621,8 +634,7 @@
 }
 @media print {
   .stegmeier-post .map-preview, .stegmeier-post .interaction-hint,
-  .stegmeier-post .explorer-nav, .stegmeier-post .crop-detail,
+  .stegmeier-post .explorer-nav,
   .stegmeier-post .photo-zoom-label, .record-viewer { display: none !important; }
   .stegmeier-post .map-marker { width: 20px; height: 20px; box-shadow: none; }
-  .stegmeier-post .crop-choice { padding: 0 !important; border: 0 !important; }
 }
