@@ -286,7 +286,7 @@
   }
 
   enhanceViewer();
-  fetch(`${base}figures-data.json?v=5`).then(response => {
+  fetch(`${base}figures-data.json?v=6`).then(response => {
     if (!response.ok) throw new Error("Figure data unavailable");
     return response.json();
   }).then(data => {
