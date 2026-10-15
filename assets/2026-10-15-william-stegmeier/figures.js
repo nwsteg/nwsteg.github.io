@@ -5,7 +5,7 @@
   const escape = value => String(value).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const reducedMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const compactMap = () => window.matchMedia("(max-width: 600px), (hover: none)").matches;
-  const photoMarkup = photo => `<a class="record-image-link place-photo-link" href="${escape(photo.image)}" data-zoom data-credit="${escape(photo.caption + ' ' + photo.credit)}" data-source="${escape(photo.source)}" data-download="${escape(photo.original)}"><img src="${escape(photo.image)}" alt="${escape(photo.alt)}" width="${photo.width}" height="${photo.height}"><span>Enlarge photograph ↗</span></a><p class="place-photo-caption">${escape(photo.caption)}</p><p class="place-photo-credit">${escape(photo.credit)} <a href="${escape(photo.source)}">Photo details →</a></p>`;
+  const photoMarkup = photo => `<a class="record-image-link place-photo-link" href="${escape(photo.image)}" data-zoom data-credit="${escape(photo.caption + ' ' + photo.credit)}" data-source="${escape(photo.source)}" data-download="${escape(photo.original)}"><img src="${escape(photo.image)}" alt="${escape(photo.alt)}" width="${photo.width}" height="${photo.height}"><span>Enlarge photograph ↗</span></a><p class="place-photo-caption">${escape(photo.caption)}</p><p class="place-photo-credit">${escape(photo.credit)} <a href="${escape(photo.source)}">Photo details →</a>${photo.relatedUrl ? `<br><a href="${escape(photo.relatedUrl)}">${escape(photo.relatedTitle)} →</a>` : ""}</p>`;
 
   function enhanceViewer() {
     const viewer = document.querySelector("#record-viewer");
@@ -275,7 +275,7 @@
   }
 
   enhanceViewer();
-  fetch(`${base}figures-data.json?v=3`).then(response => {
+  fetch(`${base}figures-data.json?v=4`).then(response => {
     if (!response.ok) throw new Error("Figure data unavailable");
     return response.json();
   }).then(data => {

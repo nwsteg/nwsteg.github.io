@@ -688,5 +688,165 @@
     "source_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/2001_Hays_History_Complete_SB663.pdf#page=1",
     "pages_or_context": "2000; Embedded JPEG extracted without alteration from PDF page 1, image 0, object 730 of SB663; photograph date identified on PDF page 3",
     "notes": "Kansas State University \u00b7 \u00a9 Kansas State University. Cover photograph reproduced from William M. Phillips, A History of the Agricultural Research Center\u2013Hays: The First 100 Years, Kansas State University, Bulletin 663 (2001). Contextual illustration; copyright remains with the source publisher. No broader reuse rights are granted."
+  },
+  "research/01_Biography_Memorials_and_Photographs/1957_Garden_City_Fifty_Years_of_Progress_SRP007.pdf": {
+    "title": "Fifty Years of Progress: Garden City Branch, Kansas Report 7",
+    "kind": "Contemporary station publication",
+    "original_url": "https://extension.k-state.edu/historicpublications/pubs/SRP007.pdf",
+    "source_url": "https://extension.k-state.edu/historicpublications/pubs/SRP007.pdf",
+    "pages_or_context": "June 1957; back-cover aerial photograph on PDF page 36",
+    "notes": "Publication date documented; exact photograph exposure date unrecorded. Original PDF preserved unchanged."
+  },
+  "research/01_Biography_Memorials_and_Photographs/1984_Fort_Hays_Branch_Station_Brochure.pdf": {
+    "title": "Fort Hays Branch Station, Special Publication",
+    "kind": "Contemporary station publication",
+    "original_url": "https://extension.k-state.edu/historicpublications/pubs/fthays.pdf",
+    "source_url": "https://extension.k-state.edu/historicpublications/pubs/fthays.pdf",
+    "pages_or_context": "September 1984; station aerial photograph on PDF page 3",
+    "notes": "Publication date documented; exact photograph exposure date unrecorded. Original PDF preserved unchanged."
+  },
+  "places/originals/green-bay-1930.jpg": {
+    "title": "Downtown Green Bay in 1930",
+    "kind": "Place photograph",
+    "original_url": "https://www.wisconsinhistory.org/record/image/W013SP4",
+    "source_url": "https://explore.wishistory.org/AssetLink/2526rb163fb4f1nchw3320j5158i677a.jpg",
+    "pages_or_context": "1930; Publisher\u2019s downloadable JPEG, preserved byte for byte",
+    "notes": "J. Aregi / Wisconsin Historical Society \u00b7 No copyright \u2014 United States. Wisconsin Historical Society catalog W013SP4, legacy image WHi 31928, PF Green Bay.257. The source dates the photograph to 1930 and labels it No Copyright - United States."
+  },
+  "places/views/green-bay-1930.jpg": {
+    "title": "Downtown Green Bay in 1930",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://www.wisconsinhistory.org/record/image/W013SP4",
+    "source_url": "https://explore.wishistory.org/AssetLink/2526rb163fb4f1nchw3320j5158i677a.jpg",
+    "pages_or_context": "1930; Publisher\u2019s downloadable JPEG, preserved byte for byte",
+    "notes": "J. Aregi / Wisconsin Historical Society \u00b7 No copyright \u2014 United States. Wisconsin Historical Society catalog W013SP4, legacy image WHi 31928, PF Green Bay.257. The source dates the photograph to 1930 and labels it No Copyright - United States."
+  },
+  "places/originals/elgin-grant-1936.jpg": {
+    "title": "Rural Grant County during the Dust Bowl",
+    "kind": "Place photograph",
+    "original_url": "https://www.loc.gov/pictures/item/2017760965/",
+    "source_url": "https://cdn.loc.gov/service/pnp/fsa/8b28000/8b28100/8b28112v.jpg",
+    "pages_or_context": "1936-07; Library of Congress large service JPEG, preserved byte for byte",
+    "notes": "Arthur Rothstein / Library of Congress \u00b7 No known restrictions. FSA/OWI collection, LC-USF34-005112-D; digital ID fsa.8b28112. The original catalog locates this farm only in Grant County. No claim is made that it is Bill\u2019s family home or in the town of Elgin."
+  },
+  "places/views/elgin-grant-1936.jpg": {
+    "title": "Rural Grant County during the Dust Bowl",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://www.loc.gov/pictures/item/2017760965/",
+    "source_url": "https://cdn.loc.gov/service/pnp/fsa/8b28000/8b28100/8b28112v.jpg",
+    "pages_or_context": "1936-07; Library of Congress large service JPEG, preserved byte for byte",
+    "notes": "Arthur Rothstein / Library of Congress \u00b7 No known restrictions. FSA/OWI collection, LC-USF34-005112-D; digital ID fsa.8b28112. The original catalog locates this farm only in Grant County. No claim is made that it is Bill\u2019s family home or in the town of Elgin."
+  },
+  "places/originals/minneapolis-1951.jpg": {
+    "title": "Hennepin Avenue at Seventh Street",
+    "kind": "Place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Hennepin_Avenue_at_7th_Street,_1951.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Hennepin_Avenue_at_7th_Street%2C_1951.jpg",
+    "pages_or_context": "1951-11-08; 640-pixel source JPEG downloaded through the source page, preserved byte for byte",
+    "notes": "Michael Donovan \u00b7 CC BY-SA 2.0. The Wikimedia Commons record dates this photograph to November 8, 1951, and credits Michael Donovan under CC BY-SA 2.0. It records a verified Flickr license check made when the image was copied in 2013."
+  },
+  "places/views/minneapolis-1951.jpg": {
+    "title": "Hennepin Avenue at Seventh Street",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Hennepin_Avenue_at_7th_Street,_1951.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Hennepin_Avenue_at_7th_Street%2C_1951.jpg",
+    "pages_or_context": "1951-11-08; 640-pixel source JPEG downloaded through the source page, preserved byte for byte",
+    "notes": "Michael Donovan \u00b7 CC BY-SA 2.0. The Wikimedia Commons record dates this photograph to November 8, 1951, and credits Michael Donovan under CC BY-SA 2.0. It records a verified Flickr license check made when the image was copied in 2013."
+  },
+  "places/originals/yuma-1953.jpg": {
+    "title": "Yuma\u2019s riverfront and bridges",
+    "kind": "Place photograph",
+    "original_url": "https://www.loc.gov/pictures/item/az0293.photos.041618p/",
+    "source_url": "https://cdn.loc.gov/service/pnp/habshaer/az/az0200/az0293/photos/041618pv.jpg",
+    "pages_or_context": "1953-10-15; Library of Congress large service JPEG, preserved byte for byte",
+    "notes": "Emil Eger / Library of Congress, HAER. HAER ARIZ,14-YUMA.V,1--11; digital ID hhh.az0293/photos.041618p. The original catalog dates Emil Eger\u2019s photograph to October 15, 1953. LOC notes that copied photographs may have rights restrictions; this historical reproduction is a contextual illustration in the biography and grants no additional reuse rights."
+  },
+  "places/views/yuma-1953.jpg": {
+    "title": "Yuma\u2019s riverfront and bridges",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://www.loc.gov/pictures/item/az0293.photos.041618p/",
+    "source_url": "https://cdn.loc.gov/service/pnp/habshaer/az/az0200/az0293/photos/041618pv.jpg",
+    "pages_or_context": "1953-10-15; Library of Congress large service JPEG, preserved byte for byte",
+    "notes": "Emil Eger / Library of Congress, HAER. HAER ARIZ,14-YUMA.V,1--11; digital ID hhh.az0293/photos.041618p. The original catalog dates Emil Eger\u2019s photograph to October 15, 1953. LOC notes that copied photographs may have rights restrictions; this historical reproduction is a contextual illustration in the biography and grants no additional reuse rights."
+  },
+  "places/originals/pendleton-1952.jpg": {
+    "title": "A training demonstration at Camp Pendleton",
+    "kind": "Place photograph",
+    "original_url": "https://www.flickr.com/photos/usmcarchives/47892897831",
+    "source_url": "https://live.staticflickr.com/65535/47892897831_d9af3e7e4e_z.jpg",
+    "pages_or_context": "1952; USMC Archives published 640-pixel preview, preserved byte for byte",
+    "notes": "USMC Archives / Ronald Trayer Collection \u00b7 CC BY 2.0. Final Protective Line Demonstration, Camp Pendleton, 1952, Ronald Trayer Collection COLL/5635, Archives Branch, Marine Corps History Division. The publisher identifies it as an official USMC photograph and displays a CC BY 2.0 license. It illustrates the base during his service; Bill is not identified in the photograph."
+  },
+  "places/views/pendleton-1952.jpg": {
+    "title": "A training demonstration at Camp Pendleton",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://www.flickr.com/photos/usmcarchives/47892897831",
+    "source_url": "https://live.staticflickr.com/65535/47892897831_d9af3e7e4e_z.jpg",
+    "pages_or_context": "1952; USMC Archives published 640-pixel preview, preserved byte for byte",
+    "notes": "USMC Archives / Ronald Trayer Collection \u00b7 CC BY 2.0. Final Protective Line Demonstration, Camp Pendleton, 1952, Ronald Trayer Collection COLL/5635, Archives Branch, Marine Corps History Division. The publisher identifies it as an official USMC photograph and displays a CC BY 2.0 license. It illustrates the base during his service; Bill is not identified in the photograph."
+  },
+  "places/originals/fort-collins-1955.jpg": {
+    "title": "Colorado A&M\u2019s campus from the air",
+    "kind": "Place photograph",
+    "original_url": "https://hdl.handle.net/10217/02.0035450",
+    "source_url": "https://archives.mountainscholar.org/digital/api/collection/p17393coll50/id/23664/download",
+    "pages_or_context": "1955-05; Archive\u2019s downloadable JPEG, preserved byte for byte",
+    "notes": "CSU Libraries, University Historic Photograph Collection \u00b7 \u00a9 Colorado State University. Unidentified photographer; UHPC_B6184G, University Historic Photograph Collection, Series 16, Campus Buildings and Scenes. The catalog dates the image May 1955 and states that Colorado State University owns the rights. Contextual historical illustration; no broader reuse license is asserted."
+  },
+  "places/views/fort-collins-1955.jpg": {
+    "title": "Colorado A&M\u2019s campus from the air",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://hdl.handle.net/10217/02.0035450",
+    "source_url": "https://archives.mountainscholar.org/digital/api/collection/p17393coll50/id/23664/download",
+    "pages_or_context": "1955-05; Archive\u2019s downloadable JPEG, preserved byte for byte",
+    "notes": "CSU Libraries, University Historic Photograph Collection \u00b7 \u00a9 Colorado State University. Unidentified photographer; UHPC_B6184G, University Historic Photograph Collection, Series 16, Campus Buildings and Scenes. The catalog dates the image May 1955 and states that Colorado State University owns the rights. Contextual historical illustration; no broader reuse license is asserted."
+  },
+  "places/originals/brookings-1968.jpg": {
+    "title": "South Dakota State\u2019s campus in 1968",
+    "kind": "Place photograph",
+    "original_url": "https://openprairie.sdstate.edu/dc_aerial-photos/134/",
+    "source_url": "https://openprairie.sdstate.edu/dc_aerial-photos/1133/preview.jpg",
+    "pages_or_context": "1968-10; Publisher\u2019s archive preview, preserved byte for byte",
+    "notes": "South Dakota State University, Hilton M. Briggs Library \u00b7 \u00a9 South Dakota State University. Open PRAIRIE Aerial Photographs collection, identifier 1968-1599-PA01. Creation date is October 1968; the repository\u2019s copyright notice is dated 2015, which is not the exposure date. Contextual historical illustration; no broader reuse rights are granted."
+  },
+  "places/views/brookings-1968.jpg": {
+    "title": "South Dakota State\u2019s campus in 1968",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://openprairie.sdstate.edu/dc_aerial-photos/134/",
+    "source_url": "https://openprairie.sdstate.edu/dc_aerial-photos/1133/preview.jpg",
+    "pages_or_context": "1968-10; Publisher\u2019s archive preview, preserved byte for byte",
+    "notes": "South Dakota State University, Hilton M. Briggs Library \u00b7 \u00a9 South Dakota State University. Open PRAIRIE Aerial Photographs collection, identifier 1968-1599-PA01. Creation date is October 1968; the repository\u2019s copyright notice is dated 2015, which is not the exposure date. Contextual historical illustration; no broader reuse rights are granted."
+  },
+  "places/originals/garden-city-1957.png": {
+    "title": "The Garden City station before Bill\u2019s arrival",
+    "kind": "Place photograph",
+    "original_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1957_Garden_City_Fifty_Years_of_Progress_SRP007.pdf#page=36",
+    "source_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1957_Garden_City_Fifty_Years_of_Progress_SRP007.pdf#page=36",
+    "pages_or_context": "Photograph date unrecorded; published June 1957; Raster from PDF page 36, image 0, extracted with pdfimages and losslessly encoded as PNG",
+    "notes": "Kansas State University \u00b7 \u00a9 Kansas State University. Kansas Report 7, Fifty Years of Progress: Garden City Branch, Kansas Agricultural Experiment Station (June 1957), back-cover photograph. Publication year is documented; exposure date is not stated. Contextual illustration from the original station history; copyright remains with the publisher."
+  },
+  "places/views/garden-city-1957.jpg": {
+    "title": "The Garden City station before Bill\u2019s arrival",
+    "kind": "Web-sized place photograph",
+    "original_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1957_Garden_City_Fifty_Years_of_Progress_SRP007.pdf#page=36",
+    "source_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1957_Garden_City_Fifty_Years_of_Progress_SRP007.pdf#page=36",
+    "pages_or_context": "Photograph date unrecorded; published June 1957; Raster from PDF page 36, image 0, extracted with pdfimages and losslessly encoded as PNG",
+    "notes": "Kansas State University \u00b7 \u00a9 Kansas State University. Kansas Report 7, Fifty Years of Progress: Garden City Branch, Kansas Agricultural Experiment Station (June 1957), back-cover photograph. Publication year is documented; exposure date is not stated. Contextual illustration from the original station history; copyright remains with the publisher."
+  },
+  "places/originals/hays-1984.png": {
+    "title": "The Hays station from the air",
+    "kind": "Place photograph",
+    "original_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1984_Fort_Hays_Branch_Station_Brochure.pdf#page=3",
+    "source_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1984_Fort_Hays_Branch_Station_Brochure.pdf#page=3",
+    "pages_or_context": "Photograph date unrecorded; published September 1984; Composite raster from PDF page 3, image 1 (object 22), extracted with pdfimages and losslessly encoded as PNG",
+    "notes": "Kansas State University \u00b7 \u00a9 Kansas State University. Fort Hays Branch Station, Special Publication, September 1984, PDF page 3. The upper photograph of the preserved composite is used for the web view. Publication date is established; exact exposure date is not given. Contextual illustration; copyright remains with the source publisher."
+  },
+  "places/views/hays-1984.jpg": {
+    "title": "The Hays station from the air",
+    "kind": "Web-sized place photograph",
+    "original_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1984_Fort_Hays_Branch_Station_Brochure.pdf#page=3",
+    "source_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1984_Fort_Hays_Branch_Station_Brochure.pdf#page=3",
+    "pages_or_context": "Photograph date unrecorded; published September 1984; Composite raster from PDF page 3, image 1 (object 22), extracted with pdfimages and losslessly encoded as PNG",
+    "notes": "Kansas State University \u00b7 \u00a9 Kansas State University. Fort Hays Branch Station, Special Publication, September 1984, PDF page 3. The upper photograph of the preserved composite is used for the web view. Publication date is established; exact exposure date is not given. Contextual illustration; copyright remains with the source publisher."
   }
 }

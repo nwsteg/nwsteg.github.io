@@ -20,8 +20,8 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 2580,
-    "sha256": "b744576526c4a4495f5c1a1d1ea4ee1bd7c20ca303a4bb8acf0b6b5ed36a04d6"
+    "bytes": 2995,
+    "sha256": "24f9a3f6051b90a9b5538d49f1a20f050dfceedac5bb430c28b3cdeee18cdfdb"
   },
   {
     "path": "botany/cfia-brassica-napus-biology.html",
@@ -164,8 +164,44 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
+    "bytes": 12245,
+    "sha256": "5de9114e391c441f4f7f371b835fddadcd5a1de138e8ebaf96202cbdf1a85ad7"
+  },
+  {
+    "path": "places/earlier-photo-provenance.json",
+    "title": "earlier-photo-provenance",
+    "kind": "Research archive documentation",
+    "original_url": "",
+    "source_url": "",
+    "pages_or_context": "",
+    "notes": "",
+    "preserved_date": "2026-10-15",
+    "bytes": 8787,
+    "sha256": "19edd86dfe6ecba77dc46d66cc5cfed1b9d7685148b43ec534256286082abc41"
+  },
+  {
+    "path": "places/earlier-views.html",
+    "title": "earlier-views",
+    "kind": "Research archive documentation",
+    "original_url": "",
+    "source_url": "",
+    "pages_or_context": "",
+    "notes": "",
+    "preserved_date": "2026-10-15",
     "bytes": 9808,
     "sha256": "da1463fc7f22599d48f70492e6bb2e173c07d748845d30e26b73dcaf34cbb1a6"
+  },
+  {
+    "path": "places/originals/brookings-1968.jpg",
+    "title": "South Dakota State\u2019s campus in 1968",
+    "kind": "Place photograph",
+    "original_url": "https://openprairie.sdstate.edu/dc_aerial-photos/134/",
+    "source_url": "https://openprairie.sdstate.edu/dc_aerial-photos/1133/preview.jpg",
+    "pages_or_context": "1968-10; Publisher\u2019s archive preview, preserved byte for byte",
+    "notes": "South Dakota State University, Hilton M. Briggs Library \u00b7 \u00a9 South Dakota State University. Open PRAIRIE Aerial Photographs collection, identifier 1968-1599-PA01. Creation date is October 1968; the repository\u2019s copyright notice is dated 2015, which is not the exposure date. Contextual historical illustration; no broader reuse rights are granted.",
+    "preserved_date": "2026-10-15",
+    "bytes": 76219,
+    "sha256": "00520a87417afe4527fc775cb7ae3024f3f5dda241271d538931726480a3cbed"
   },
   {
     "path": "places/originals/brookings.jpg",
@@ -192,6 +228,18 @@
     "sha256": "6c524f50ad7356ceec51fc79ee8a718304ff988b62f00d03ae9fee17d41753dd"
   },
   {
+    "path": "places/originals/elgin-grant-1936.jpg",
+    "title": "Rural Grant County during the Dust Bowl",
+    "kind": "Place photograph",
+    "original_url": "https://www.loc.gov/pictures/item/2017760965/",
+    "source_url": "https://cdn.loc.gov/service/pnp/fsa/8b28000/8b28100/8b28112v.jpg",
+    "pages_or_context": "1936-07; Library of Congress large service JPEG, preserved byte for byte",
+    "notes": "Arthur Rothstein / Library of Congress \u00b7 No known restrictions. FSA/OWI collection, LC-USF34-005112-D; digital ID fsa.8b28112. The original catalog locates this farm only in Grant County. No claim is made that it is Bill\u2019s family home or in the town of Elgin.",
+    "preserved_date": "2026-10-15",
+    "bytes": 286037,
+    "sha256": "caa731c3edbae7cd3e5cd9ccb74b85af8ba7252ae04dfc33e768771c65e13931"
+  },
+  {
     "path": "places/originals/elgin.jpg",
     "title": "The Elgin Hotel and neighboring storefronts",
     "kind": "Place photograph",
@@ -202,6 +250,18 @@
     "preserved_date": "2026-10-15",
     "bytes": 65673,
     "sha256": "66c3b6900174b5caac5990477b7c813f7abb5a8316853d6da9c27a880f03f278"
+  },
+  {
+    "path": "places/originals/fort-collins-1955.jpg",
+    "title": "Colorado A&M\u2019s campus from the air",
+    "kind": "Place photograph",
+    "original_url": "https://hdl.handle.net/10217/02.0035450",
+    "source_url": "https://archives.mountainscholar.org/digital/api/collection/p17393coll50/id/23664/download",
+    "pages_or_context": "1955-05; Archive\u2019s downloadable JPEG, preserved byte for byte",
+    "notes": "CSU Libraries, University Historic Photograph Collection \u00b7 \u00a9 Colorado State University. Unidentified photographer; UHPC_B6184G, University Historic Photograph Collection, Series 16, Campus Buildings and Scenes. The catalog dates the image May 1955 and states that Colorado State University owns the rights. Contextual historical illustration; no broader reuse license is asserted.",
+    "preserved_date": "2026-10-15",
+    "bytes": 243786,
+    "sha256": "3fb293156820c6e46acd1a900bb78f784f9149dffa974f712bba1eead1a48f6e"
   },
   {
     "path": "places/originals/fort-collins.jpg",
@@ -216,6 +276,18 @@
     "sha256": "9f7ffe5ff4b35e1413961d6331d82aba1d10750c158bd9bddcd33d01e5a67000"
   },
   {
+    "path": "places/originals/garden-city-1957.png",
+    "title": "The Garden City station before Bill\u2019s arrival",
+    "kind": "Place photograph",
+    "original_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1957_Garden_City_Fifty_Years_of_Progress_SRP007.pdf#page=36",
+    "source_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1957_Garden_City_Fifty_Years_of_Progress_SRP007.pdf#page=36",
+    "pages_or_context": "Photograph date unrecorded; published June 1957; Raster from PDF page 36, image 0, extracted with pdfimages and losslessly encoded as PNG",
+    "notes": "Kansas State University \u00b7 \u00a9 Kansas State University. Kansas Report 7, Fifty Years of Progress: Garden City Branch, Kansas Agricultural Experiment Station (June 1957), back-cover photograph. Publication year is documented; exposure date is not stated. Contextual illustration from the original station history; copyright remains with the publisher.",
+    "preserved_date": "2026-10-15",
+    "bytes": 123267,
+    "sha256": "8aa32bef7662448a6cf47c8a7fc10a0cf50aa98d3734a0db735e7a114860a01e"
+  },
+  {
     "path": "places/originals/garden-city.jpg",
     "title": "Southwest Research-Extension Center, Garden City",
     "kind": "Place photograph",
@@ -226,6 +298,18 @@
     "preserved_date": "2026-10-15",
     "bytes": 117520,
     "sha256": "e36a39a3f23dada061b141c4797b3ceed46f43b6bdefa617fa5dcac8401cfd82"
+  },
+  {
+    "path": "places/originals/green-bay-1930.jpg",
+    "title": "Downtown Green Bay in 1930",
+    "kind": "Place photograph",
+    "original_url": "https://www.wisconsinhistory.org/record/image/W013SP4",
+    "source_url": "https://explore.wishistory.org/AssetLink/2526rb163fb4f1nchw3320j5158i677a.jpg",
+    "pages_or_context": "1930; Publisher\u2019s downloadable JPEG, preserved byte for byte",
+    "notes": "J. Aregi / Wisconsin Historical Society \u00b7 No copyright \u2014 United States. Wisconsin Historical Society catalog W013SP4, legacy image WHi 31928, PF Green Bay.257. The source dates the photograph to 1930 and labels it No Copyright - United States.",
+    "preserved_date": "2026-10-15",
+    "bytes": 108711,
+    "sha256": "8a77a0ba52590e5561e1d963f7f332d277d4f0390bfa69fdf6bcb0a5e3cbab11"
   },
   {
     "path": "places/originals/green-bay.jpg",
@@ -240,6 +324,18 @@
     "sha256": "54baccd2a2a1d94d3218de5bb235e7d3af99266ac905c80ca6ff0c1b8538906a"
   },
   {
+    "path": "places/originals/hays-1984.png",
+    "title": "The Hays station from the air",
+    "kind": "Place photograph",
+    "original_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1984_Fort_Hays_Branch_Station_Brochure.pdf#page=3",
+    "source_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1984_Fort_Hays_Branch_Station_Brochure.pdf#page=3",
+    "pages_or_context": "Photograph date unrecorded; published September 1984; Composite raster from PDF page 3, image 1 (object 22), extracted with pdfimages and losslessly encoded as PNG",
+    "notes": "Kansas State University \u00b7 \u00a9 Kansas State University. Fort Hays Branch Station, Special Publication, September 1984, PDF page 3. The upper photograph of the preserved composite is used for the web view. Publication date is established; exact exposure date is not given. Contextual illustration; copyright remains with the source publisher.",
+    "preserved_date": "2026-10-15",
+    "bytes": 148266,
+    "sha256": "0823dedaa0ea8668187f701529075055c3f5977b30e344b9c19eb7907e5bfabc"
+  },
+  {
     "path": "places/originals/hays.jpg",
     "title": "Agricultural Research Center\u2013Hays from the air",
     "kind": "Place photograph",
@@ -252,6 +348,18 @@
     "sha256": "97ea0ed1923009dbe07b913329b521e8deba615d0bf4771a98624d702c3d2c1d"
   },
   {
+    "path": "places/originals/minneapolis-1951.jpg",
+    "title": "Hennepin Avenue at Seventh Street",
+    "kind": "Place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Hennepin_Avenue_at_7th_Street,_1951.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Hennepin_Avenue_at_7th_Street%2C_1951.jpg",
+    "pages_or_context": "1951-11-08; 640-pixel source JPEG downloaded through the source page, preserved byte for byte",
+    "notes": "Michael Donovan \u00b7 CC BY-SA 2.0. The Wikimedia Commons record dates this photograph to November 8, 1951, and credits Michael Donovan under CC BY-SA 2.0. It records a verified Flickr license check made when the image was copied in 2013.",
+    "preserved_date": "2026-10-15",
+    "bytes": 89186,
+    "sha256": "a9b6c442519368d40fd11ed3fbc71d82b451782c77a57f71644afa395edaeeb5"
+  },
+  {
     "path": "places/originals/minneapolis.jpg",
     "title": "Minneapolis from the Stone Arch Bridge",
     "kind": "Place photograph",
@@ -262,6 +370,30 @@
     "preserved_date": "2026-10-15",
     "bytes": 3519581,
     "sha256": "c51c4d8561230097f47938deb58f86c027ee0c7ba0b1428eaf43daa163657a9a"
+  },
+  {
+    "path": "places/originals/pendleton-1952.jpg",
+    "title": "A training demonstration at Camp Pendleton",
+    "kind": "Place photograph",
+    "original_url": "https://www.flickr.com/photos/usmcarchives/47892897831",
+    "source_url": "https://live.staticflickr.com/65535/47892897831_d9af3e7e4e_z.jpg",
+    "pages_or_context": "1952; USMC Archives published 640-pixel preview, preserved byte for byte",
+    "notes": "USMC Archives / Ronald Trayer Collection \u00b7 CC BY 2.0. Final Protective Line Demonstration, Camp Pendleton, 1952, Ronald Trayer Collection COLL/5635, Archives Branch, Marine Corps History Division. The publisher identifies it as an official USMC photograph and displays a CC BY 2.0 license. It illustrates the base during his service; Bill is not identified in the photograph.",
+    "preserved_date": "2026-10-15",
+    "bytes": 71303,
+    "sha256": "838bd0e8e683eb3ccd725f48de48ab084d88ab97c17d507c3466c7dda1c106d9"
+  },
+  {
+    "path": "places/originals/yuma-1953.jpg",
+    "title": "Yuma\u2019s riverfront and bridges",
+    "kind": "Place photograph",
+    "original_url": "https://www.loc.gov/pictures/item/az0293.photos.041618p/",
+    "source_url": "https://cdn.loc.gov/service/pnp/habshaer/az/az0200/az0293/photos/041618pv.jpg",
+    "pages_or_context": "1953-10-15; Library of Congress large service JPEG, preserved byte for byte",
+    "notes": "Emil Eger / Library of Congress, HAER. HAER ARIZ,14-YUMA.V,1--11; digital ID hhh.az0293/photos.041618p. The original catalog dates Emil Eger\u2019s photograph to October 15, 1953. LOC notes that copied photographs may have rights restrictions; this historical reproduction is a contextual illustration in the biography and grants no additional reuse rights.",
+    "preserved_date": "2026-10-15",
+    "bytes": 210084,
+    "sha256": "3f0824c18e4344d0815b3151bf91025737305ceb93126eb9f41e6f67567a6e45"
   },
   {
     "path": "places/originals/yuma.jpg",
@@ -284,8 +416,20 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 8787,
-    "sha256": "19edd86dfe6ecba77dc46d66cc5cfed1b9d7685148b43ec534256286082abc41"
+    "bytes": 11223,
+    "sha256": "4a5e385ce7f6b88c7c0c45886361d4d7399c52f78f25bd85e6ff3e5c638ee672"
+  },
+  {
+    "path": "places/views/brookings-1968.jpg",
+    "title": "South Dakota State\u2019s campus in 1968",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://openprairie.sdstate.edu/dc_aerial-photos/134/",
+    "source_url": "https://openprairie.sdstate.edu/dc_aerial-photos/1133/preview.jpg",
+    "pages_or_context": "1968-10; Publisher\u2019s archive preview, preserved byte for byte",
+    "notes": "South Dakota State University, Hilton M. Briggs Library \u00b7 \u00a9 South Dakota State University. Open PRAIRIE Aerial Photographs collection, identifier 1968-1599-PA01. Creation date is October 1968; the repository\u2019s copyright notice is dated 2015, which is not the exposure date. Contextual historical illustration; no broader reuse rights are granted.",
+    "preserved_date": "2026-10-15",
+    "bytes": 47314,
+    "sha256": "c9442dac06dfed9ae2331a29dd7fef9d20e91ddd22cfa06ae9a5469c910f247a"
   },
   {
     "path": "places/views/brookings.jpg",
@@ -312,6 +456,18 @@
     "sha256": "29e865c351402a950fb301b4337bcf3ac58f967cf2a848e8095c8c4e51edb643"
   },
   {
+    "path": "places/views/elgin-grant-1936.jpg",
+    "title": "Rural Grant County during the Dust Bowl",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://www.loc.gov/pictures/item/2017760965/",
+    "source_url": "https://cdn.loc.gov/service/pnp/fsa/8b28000/8b28100/8b28112v.jpg",
+    "pages_or_context": "1936-07; Library of Congress large service JPEG, preserved byte for byte",
+    "notes": "Arthur Rothstein / Library of Congress \u00b7 No known restrictions. FSA/OWI collection, LC-USF34-005112-D; digital ID fsa.8b28112. The original catalog locates this farm only in Grant County. No claim is made that it is Bill\u2019s family home or in the town of Elgin.",
+    "preserved_date": "2026-10-15",
+    "bytes": 175385,
+    "sha256": "af87e8b7973efee8125b1b3dcbb10febb8dc07b85a78161701e8204db089ae65"
+  },
+  {
     "path": "places/views/elgin.jpg",
     "title": "The Elgin Hotel and neighboring storefronts",
     "kind": "Web-sized place photograph",
@@ -322,6 +478,18 @@
     "preserved_date": "2026-10-15",
     "bytes": 41120,
     "sha256": "6ea9eaa0f724a8bb1c08881eb543c99b36beeb774fba4470d9465e86e1c8533b"
+  },
+  {
+    "path": "places/views/fort-collins-1955.jpg",
+    "title": "Colorado A&M\u2019s campus from the air",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://hdl.handle.net/10217/02.0035450",
+    "source_url": "https://archives.mountainscholar.org/digital/api/collection/p17393coll50/id/23664/download",
+    "pages_or_context": "1955-05; Archive\u2019s downloadable JPEG, preserved byte for byte",
+    "notes": "CSU Libraries, University Historic Photograph Collection \u00b7 \u00a9 Colorado State University. Unidentified photographer; UHPC_B6184G, University Historic Photograph Collection, Series 16, Campus Buildings and Scenes. The catalog dates the image May 1955 and states that Colorado State University owns the rights. Contextual historical illustration; no broader reuse license is asserted.",
+    "preserved_date": "2026-10-15",
+    "bytes": 234546,
+    "sha256": "23f9bed50faea14fab5d0113dc1d4d8039b94114ff679f178b9675d8e535c815"
   },
   {
     "path": "places/views/fort-collins.jpg",
@@ -336,6 +504,18 @@
     "sha256": "d44090bf52afb3f87ea8cc001b4f145f07d8dcca68c5518eaff0d3ee5bf6a9fc"
   },
   {
+    "path": "places/views/garden-city-1957.jpg",
+    "title": "The Garden City station before Bill\u2019s arrival",
+    "kind": "Web-sized place photograph",
+    "original_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1957_Garden_City_Fifty_Years_of_Progress_SRP007.pdf#page=36",
+    "source_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1957_Garden_City_Fifty_Years_of_Progress_SRP007.pdf#page=36",
+    "pages_or_context": "Photograph date unrecorded; published June 1957; Raster from PDF page 36, image 0, extracted with pdfimages and losslessly encoded as PNG",
+    "notes": "Kansas State University \u00b7 \u00a9 Kansas State University. Kansas Report 7, Fifty Years of Progress: Garden City Branch, Kansas Agricultural Experiment Station (June 1957), back-cover photograph. Publication year is documented; exposure date is not stated. Contextual illustration from the original station history; copyright remains with the publisher.",
+    "preserved_date": "2026-10-15",
+    "bytes": 722694,
+    "sha256": "7ffb2b640d81c39d5f20a72a5b8d54bb3896c73897818317487d7ff4c5207bf8"
+  },
+  {
     "path": "places/views/garden-city.jpg",
     "title": "Southwest Research-Extension Center, Garden City",
     "kind": "Web-sized place photograph",
@@ -346,6 +526,18 @@
     "preserved_date": "2026-10-15",
     "bytes": 116862,
     "sha256": "42b4e900f1934bf20e5fec2f57cfdb2c5efe0340c9d54c066d23e6f28f783e70"
+  },
+  {
+    "path": "places/views/green-bay-1930.jpg",
+    "title": "Downtown Green Bay in 1930",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://www.wisconsinhistory.org/record/image/W013SP4",
+    "source_url": "https://explore.wishistory.org/AssetLink/2526rb163fb4f1nchw3320j5158i677a.jpg",
+    "pages_or_context": "1930; Publisher\u2019s downloadable JPEG, preserved byte for byte",
+    "notes": "J. Aregi / Wisconsin Historical Society \u00b7 No copyright \u2014 United States. Wisconsin Historical Society catalog W013SP4, legacy image WHi 31928, PF Green Bay.257. The source dates the photograph to 1930 and labels it No Copyright - United States.",
+    "preserved_date": "2026-10-15",
+    "bytes": 127542,
+    "sha256": "2fc3ed09cace46bbe0a72070d5118ecd9034178e8587978cae75e4b5f4d42639"
   },
   {
     "path": "places/views/green-bay.jpg",
@@ -360,6 +552,18 @@
     "sha256": "fe5d8d5f1c86166207664782c427cae23180dda411177b4bd893e97ce920e00c"
   },
   {
+    "path": "places/views/hays-1984.jpg",
+    "title": "The Hays station from the air",
+    "kind": "Web-sized place photograph",
+    "original_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1984_Fort_Hays_Branch_Station_Brochure.pdf#page=3",
+    "source_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1984_Fort_Hays_Branch_Station_Brochure.pdf#page=3",
+    "pages_or_context": "Photograph date unrecorded; published September 1984; Composite raster from PDF page 3, image 1 (object 22), extracted with pdfimages and losslessly encoded as PNG",
+    "notes": "Kansas State University \u00b7 \u00a9 Kansas State University. Fort Hays Branch Station, Special Publication, September 1984, PDF page 3. The upper photograph of the preserved composite is used for the web view. Publication date is established; exact exposure date is not given. Contextual illustration; copyright remains with the source publisher.",
+    "preserved_date": "2026-10-15",
+    "bytes": 12506,
+    "sha256": "2beddf7f46443501ecb8c981a147b37ea883128b9a724495d4a81e4f75d1a58d"
+  },
+  {
     "path": "places/views/hays.jpg",
     "title": "Agricultural Research Center\u2013Hays from the air",
     "kind": "Web-sized place photograph",
@@ -372,6 +576,18 @@
     "sha256": "8e74f30915f2476ebded3ce35bbc8ed69ff3037373acdcfc9ab2c484676af86e"
   },
   {
+    "path": "places/views/minneapolis-1951.jpg",
+    "title": "Hennepin Avenue at Seventh Street",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Hennepin_Avenue_at_7th_Street,_1951.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Hennepin_Avenue_at_7th_Street%2C_1951.jpg",
+    "pages_or_context": "1951-11-08; 640-pixel source JPEG downloaded through the source page, preserved byte for byte",
+    "notes": "Michael Donovan \u00b7 CC BY-SA 2.0. The Wikimedia Commons record dates this photograph to November 8, 1951, and credits Michael Donovan under CC BY-SA 2.0. It records a verified Flickr license check made when the image was copied in 2013.",
+    "preserved_date": "2026-10-15",
+    "bytes": 75128,
+    "sha256": "0c24010621c301f0095dacba91fa69f40acb03608af7528d33dfccb626f05863"
+  },
+  {
     "path": "places/views/minneapolis.jpg",
     "title": "Minneapolis from the Stone Arch Bridge",
     "kind": "Web-sized place photograph",
@@ -382,6 +598,30 @@
     "preserved_date": "2026-10-15",
     "bytes": 377486,
     "sha256": "2a669afd89511ab2be69ba94c15b8cdbede3ce722a5099a1c723c2562fb1b600"
+  },
+  {
+    "path": "places/views/pendleton-1952.jpg",
+    "title": "A training demonstration at Camp Pendleton",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://www.flickr.com/photos/usmcarchives/47892897831",
+    "source_url": "https://live.staticflickr.com/65535/47892897831_d9af3e7e4e_z.jpg",
+    "pages_or_context": "1952; USMC Archives published 640-pixel preview, preserved byte for byte",
+    "notes": "USMC Archives / Ronald Trayer Collection \u00b7 CC BY 2.0. Final Protective Line Demonstration, Camp Pendleton, 1952, Ronald Trayer Collection COLL/5635, Archives Branch, Marine Corps History Division. The publisher identifies it as an official USMC photograph and displays a CC BY 2.0 license. It illustrates the base during his service; Bill is not identified in the photograph.",
+    "preserved_date": "2026-10-15",
+    "bytes": 53555,
+    "sha256": "6a555dbe920c1e1d2542397292f07d492215642d127a36e87a64ac9af001dff6"
+  },
+  {
+    "path": "places/views/yuma-1953.jpg",
+    "title": "Yuma\u2019s riverfront and bridges",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://www.loc.gov/pictures/item/az0293.photos.041618p/",
+    "source_url": "https://cdn.loc.gov/service/pnp/habshaer/az/az0200/az0293/photos/041618pv.jpg",
+    "pages_or_context": "1953-10-15; Library of Congress large service JPEG, preserved byte for byte",
+    "notes": "Emil Eger / Library of Congress, HAER. HAER ARIZ,14-YUMA.V,1--11; digital ID hhh.az0293/photos.041618p. The original catalog dates Emil Eger\u2019s photograph to October 15, 1953. LOC notes that copied photographs may have rights restrictions; this historical reproduction is a contextual illustration in the biography and grants no additional reuse rights.",
+    "preserved_date": "2026-10-15",
+    "bytes": 237427,
+    "sha256": "8afc8968e782ecf0e089422146dc4d7fa0e4816c5b89e616f2de4e095bf284ac"
   },
   {
     "path": "places/views/yuma.jpg",
@@ -840,6 +1080,30 @@
     "sha256": "b7d07b238327895e9b3555112bf641b16e3b963afc341bc62f2aa5c6620ec77c"
   },
   {
+    "path": "research/01_Biography_Memorials_and_Photographs/1957_Garden_City_Fifty_Years_of_Progress_SRP007.pdf",
+    "title": "Fifty Years of Progress: Garden City Branch, Kansas Report 7",
+    "kind": "Contemporary station publication",
+    "original_url": "https://extension.k-state.edu/historicpublications/pubs/SRP007.pdf",
+    "source_url": "https://extension.k-state.edu/historicpublications/pubs/SRP007.pdf",
+    "pages_or_context": "June 1957; back-cover aerial photograph on PDF page 36",
+    "notes": "Publication date documented; exact photograph exposure date unrecorded. Original PDF preserved unchanged.",
+    "preserved_date": "2026-10-15",
+    "bytes": 1664568,
+    "sha256": "03de8b7036e1c316883129cc9ac5029172e857ae916e0a9d89447ff468d8ef4c"
+  },
+  {
+    "path": "research/01_Biography_Memorials_and_Photographs/1984_Fort_Hays_Branch_Station_Brochure.pdf",
+    "title": "Fort Hays Branch Station, Special Publication",
+    "kind": "Contemporary station publication",
+    "original_url": "https://extension.k-state.edu/historicpublications/pubs/fthays.pdf",
+    "source_url": "https://extension.k-state.edu/historicpublications/pubs/fthays.pdf",
+    "pages_or_context": "September 1984; station aerial photograph on PDF page 3",
+    "notes": "Publication date documented; exact photograph exposure date unrecorded. Original PDF preserved unchanged.",
+    "preserved_date": "2026-10-15",
+    "bytes": 3407807,
+    "sha256": "b12d445d3ca7d736a9b46a630881d66d96599be56dcd0187af5173fd83e7ed5a"
+  },
+  {
     "path": "research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf",
     "title": "In Memoriam: William D. Bill Stegmeier",
     "kind": "Publication excerpt",
@@ -1268,7 +1532,7 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 50211,
-    "sha256": "1ccd6a65d5a37d320aa70b8fffa7848cce3c8b7ffec09448253974eccc9e9681"
+    "bytes": 66026,
+    "sha256": "5b586f936ecbf89fc091901ea8ccd4bd3bebeb0dc9ec3dda1d480673f015a244"
   }
 ]
