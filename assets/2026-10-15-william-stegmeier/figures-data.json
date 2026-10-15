@@ -1,0 +1,329 @@
+{
+  "records": {
+    "green-bay": {
+      "image": "/assets/2026-10-15-william-stegmeier/sources/previews/green-bay.png",
+      "alt": "Memorial excerpt recording Bill’s October 4, 1931 birth in Green Bay and his parents’ names.",
+      "credit": "C. Tom Hash, 1998 memorial, p. 153. Cropped document excerpt.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf#page=1",
+      "sourceLabel": "Open the full record"
+    },
+    "elgin": {
+      "image": "/assets/2026-10-15-william-stegmeier/sources/previews/elgin.png",
+      "alt": "1940 census household rows showing William and Marie, eight-year-old Wm Duane, and his younger sisters.",
+      "credit": "1940 census, Elgin, ED 19-7, sheet 5A. Cropped household rows.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/records/1940_Elgin_ED19-7_sheet5A.jpg",
+      "sourceLabel": "Open the full record"
+    },
+    "minneapolis": {
+      "image": "/assets/2026-10-15-william-stegmeier/sources/previews/minneapolis.png",
+      "alt": "Veterans-register entry recording Bill’s entry into the Marines at Minneapolis on December 18, 1951.",
+      "credit": "North Dakota veterans register, 1968, p. 1420. Cropped entry.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/records/1968-north-dakota-veterans-register-s.pdf#page=145",
+      "sourceLabel": "Open the full record"
+    },
+    "yuma": {
+      "image": "/assets/2026-10-15-william-stegmeier/sources/previews/yuma.png",
+      "alt": "Memorial excerpt recording Bill and Jean Cromer’s January 2, 1953 marriage in Yuma.",
+      "credit": "C. Tom Hash, 1998 memorial, p. 153. Cropped document excerpt.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf#page=1",
+      "sourceLabel": "Open the full record"
+    },
+    "camp-pendleton": {
+      "image": "/assets/2026-10-15-william-stegmeier/sources/previews/camp-pendleton.png",
+      "alt": "January 26, 1953 unit diary showing the Camp Pendleton signal company and Corporal William D. Stegmeier.",
+      "credit": "Marine Corps unit diary, January 26, 1953. Cropped heading and personnel entry.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/records/1953-01-26_Marine_unit_diary_23247621.jpg",
+      "sourceLabel": "Open the full record"
+    },
+    "fort-collins": {
+      "image": "/assets/2026-10-15-william-stegmeier/sources/previews/fort-collins.png",
+      "alt": "Memorial excerpt naming Bill’s bachelor’s and master’s degrees at Colorado State University in Fort Collins.",
+      "credit": "C. Tom Hash, 1998 memorial, p. 153. Cropped education paragraph.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf#page=1",
+      "sourceLabel": "Open the full record"
+    },
+    "brookings": {
+      "image": "/assets/2026-10-15-william-stegmeier/sources/previews/brookings.png",
+      "alt": "USDA personnel notice stating that William D. Stegmeier had resumed graduate study at South Dakota State University.",
+      "credit": "USDA CR-11-69, February 1969, p. 1. Cropped personnel notice.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/research/1969-usda-winter-wheat-personnel-notice.pdf#page=3",
+      "sourceLabel": "Open the full record"
+    },
+    "garden-city": {
+      "image": "/assets/2026-10-15-william-stegmeier/sources/previews/garden-city.png",
+      "alt": "Hays station history describing Bill’s earlier research at the Garden City Branch Experiment Station.",
+      "credit": "William M. Phillips, Hays station history, 2001, p. 54. Cropped paragraph.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/2001_History_ARC_Hays_SB663B.pdf#page=11",
+      "sourceLabel": "Open the full record"
+    },
+    "hays": {
+      "image": "/assets/2026-10-15-william-stegmeier/bill-at-hays-field-day.jpg",
+      "alt": "Bill Stegmeier holding a microphone while explaining pearl millet at a Hays field day.",
+      "credit": "University Archives photograph reproduced in AgReport, Spring 2017, p. 11. Photograph date unknown.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/2017_AgReport_Spring.pdf#page=13",
+      "sourceLabel": "Open the photograph’s publication"
+    },
+    "hybrid-parents": {
+      "image": "/assets/2026-10-15-william-stegmeier/sources/previews/hybrid-parents.png",
+      "alt": "Original journal page with the parental-line description for pearl millet 843A and 843B.",
+      "credit": "Stegmeier and colleagues, ISMN 39, 1998, p. 129. Page excerpt includes adjacent article text.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/research/02_Pearl_Millet_Research/1998_Pearl_Millet_Parental_Lines_843A_843B_EXCERPT.pdf#page=1",
+      "sourceLabel": "Read the parental-line paper"
+    },
+    "remembering-bill": {
+      "image": "/assets/2026-10-15-william-stegmeier/sources/previews/remembering-bill.png",
+      "alt": "Opening of the 1998 memorial noting Bill’s death on July 25, 1998.",
+      "credit": "C. Tom Hash, 1998 memorial, p. 153. Cropped opening paragraph.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf#page=1",
+      "sourceLabel": "Read the memorial"
+    }
+  },
+  "places": [
+    {
+      "id": 1,
+      "title": "Green Bay, Wisconsin",
+      "date": "1931 · Birthplace",
+      "kind": "family",
+      "x": 805.1,
+      "y": 248.1,
+      "record": "green-bay",
+      "summary": "Born October 4, 1931, to William and Marie Stegmeier. His colleague’s memorial preserves the birthplace and date."
+    },
+    {
+      "id": 2,
+      "title": "Elgin, North Dakota",
+      "date": "1940 · Childhood",
+      "kind": "family",
+      "x": 566.9,
+      "y": 204.7,
+      "record": "elgin",
+      "summary": "The census finds eight-year-old Bill living with his parents and two younger sisters in Elgin. It also reports rural Grant County residence in 1935."
+    },
+    {
+      "id": 3,
+      "title": "Minneapolis, Minnesota",
+      "date": "1951 · Marine Corps entry",
+      "kind": "service",
+      "x": 713.4,
+      "y": 242.0,
+      "record": "minneapolis",
+      "summary": "The veterans register records his entry into the United States Marine Corps here on December 18, 1951."
+    },
+    {
+      "id": 4,
+      "title": "Yuma, Arizona",
+      "date": "1953 · Marriage",
+      "kind": "family",
+      "x": 286.3,
+      "y": 509.0,
+      "record": "yuma",
+      "summary": "Bill and Jean Cromer married in Yuma on January 2, 1953, during his Marine Corps years."
+    },
+    {
+      "id": 5,
+      "title": "Camp Pendleton, California",
+      "date": "1952–53 · Marine assignments",
+      "kind": "service",
+      "x": 234.1,
+      "y": 482.5,
+      "record": "camp-pendleton",
+      "summary": "Records place him in a signal company at Camp Pendleton and later in a training regiment. He separated here as a corporal on December 3, 1953. A posting in Korea remains unestablished."
+    },
+    {
+      "id": 6,
+      "title": "Fort Collins, Colorado",
+      "date": "University years · Dates unconfirmed",
+      "kind": "school",
+      "x": 498.5,
+      "y": 343.0,
+      "record": "fort-collins",
+      "summary": "Bill earned bachelor’s and master’s degrees at Colorado State University. Their dates have not yet been established."
+    },
+    {
+      "id": 7,
+      "title": "Brookings, South Dakota",
+      "date": "By 1969 · Further graduate study",
+      "kind": "school",
+      "x": 652.1,
+      "y": 259.0,
+      "record": "brookings",
+      "summary": "A USDA report issued in February 1969 records that he had resumed graduate study at South Dakota State. It gives no exact enrollment or completion date."
+    },
+    {
+      "id": 8,
+      "title": "Garden City, Kansas",
+      "date": "1958–1971 · Crop research",
+      "kind": "work",
+      "x": 572.8,
+      "y": 413.3,
+      "record": "garden-city",
+      "summary": "His Kansas State career began at Garden City in 1958. He studied familiar grains and possible alternative crops before moving to Hays."
+    },
+    {
+      "id": 9,
+      "title": "Hays, Kansas",
+      "date": "1971–1998 · Breeding and sharing",
+      "kind": "work",
+      "x": 603.1,
+      "y": 392.1,
+      "record": "hays",
+      "summary": "At Hays, Bill bred pearl millet and sunflower and explored other crops. This field-day photograph shows him explaining pearl millet; its date is unknown."
+    }
+  ],
+  "timeline": [
+    {
+      "record": "green-bay",
+      "place": 1
+    },
+    {
+      "record": "elgin",
+      "place": 2
+    },
+    {
+      "record": "camp-pendleton",
+      "place": 5
+    },
+    {
+      "record": "yuma",
+      "place": 4
+    },
+    {
+      "record": "garden-city",
+      "place": 8
+    },
+    {
+      "record": "brookings",
+      "place": 7
+    },
+    {
+      "record": "hays",
+      "place": 9
+    },
+    {
+      "record": "hybrid-parents",
+      "place": null
+    },
+    {
+      "record": "remembering-bill",
+      "place": 9
+    }
+  ],
+  "crops": [
+    {
+      "id": "pearl-millet",
+      "name": "Pearl millet",
+      "latin": "Cenchrus americanus",
+      "work": "Bill selected for earlier flowering, shorter plants and larger seed. His breeding stocks became parents of hybrids grown in India.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/research/02_Pearl_Millet_Research/1984_Pearl_Millet_Potential_Crop_Kansas_SRL77.pdf",
+      "sourceLabel": "Read the millet bulletin",
+      "botany": "/assets/2026-10-15-william-stegmeier/sources/botany/usda-pearl-millet-plant-guide.pdf",
+      "parts": [
+        {
+          "name": "Grain head",
+          "x": 66,
+          "y": 23,
+          "text": "A dense, elongated head holds many small grains. Fine bristles give the head its bottle-brush outline."
+        },
+        {
+          "name": "Leaf blades",
+          "x": 88,
+          "y": 54,
+          "text": "Long, narrow grass blades arch from the stem. The illustrations show each crop at its own scale."
+        },
+        {
+          "name": "Jointed stem",
+          "x": 58,
+          "y": 85,
+          "text": "Leaves attach around the stem at sheathing bases. The joints are called nodes."
+        }
+      ]
+    },
+    {
+      "id": "sunflower",
+      "name": "Sunflower",
+      "latin": "Helianthus annuus",
+      "work": "At Hays, Bill bred sunflower for better yields and resistance to insects and disease, helping develop it as a Kansas crop.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/2001_History_ARC_Hays_SB663B.pdf#page=12",
+      "sourceLabel": "Read the sunflower history",
+      "botany": "/assets/2026-10-15-william-stegmeier/sources/botany/usda-annual-sunflower-plant-guide.pdf",
+      "parts": [
+        {
+          "name": "Flower head",
+          "x": 78,
+          "y": 20,
+          "text": "What looks like one large flower is a head of many small flowers: yellow ray florets around a central disk of florets."
+        },
+        {
+          "name": "Toothed leaves",
+          "x": 24,
+          "y": 72,
+          "text": "The broad leaves have toothed edges and distinct leaf stalks. Leaf shape changes with position on the plant."
+        },
+        {
+          "name": "Stem",
+          "x": 58,
+          "y": 88,
+          "text": "The upright stem supports the leaves and heavy head. Cultivated sunflower forms vary in branching and head size."
+        }
+      ]
+    },
+    {
+      "id": "canola",
+      "name": "Canola",
+      "latin": "Brassica napus",
+      "work": "Bill contributed to cooperative canola trials across the Great Plains, helping assess varieties under regional growing conditions.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/research/05_Canola_and_Rapeseed/1996_1995_Great_Plains_Canola_Research_SRP763.pdf",
+      "sourceLabel": "Read the canola trials",
+      "botany": "/assets/2026-10-15-william-stegmeier/sources/botany/cfia-brassica-napus-biology.html",
+      "parts": [
+        {
+          "name": "Four-petaled flowers",
+          "x": 83,
+          "y": 25,
+          "text": "Each flower has four yellow petals in a cross. Buds occur above open flowers as the flowering shoot grows."
+        },
+        {
+          "name": "Slender seed pods",
+          "x": 66,
+          "y": 48,
+          "text": "Long, narrow pods develop below the flowers. Botanists call these pods siliques."
+        },
+        {
+          "name": "Lower leaves",
+          "x": 20,
+          "y": 75,
+          "text": "Lower leaves are lobed and blue-green. Upper leaves are smaller and clasp the stem."
+        }
+      ]
+    },
+    {
+      "id": "sorghum",
+      "name": "Sorghum",
+      "latin": "Sorghum bicolor",
+      "work": "Sorghum was a familiar dryland comparison in millet trials. Bill also coauthored research on wheat streak mosaic virus in both crops.",
+      "source": "/assets/2026-10-15-william-stegmeier/sources/research/04_Sorghum_and_Plant_Disease/1996_Natural_Infection_Pearl_Millet_Sorghum_WSMV.pdf",
+      "sourceLabel": "Read the virus study",
+      "botany": "/assets/2026-10-15-william-stegmeier/sources/botany/ksu-sorghum-growth-and-development.pdf",
+      "parts": [
+        {
+          "name": "Branched grain head",
+          "x": 74,
+          "y": 24,
+          "text": "The grains sit on branches of a panicle. This drawing shows a compact grain type; panicle shape varies among sorghums."
+        },
+        {
+          "name": "Grass blades",
+          "x": 87,
+          "y": 65,
+          "text": "Long grass blades spread from the upright stem. The leaf bases sheath the stem."
+        },
+        {
+          "name": "Stem and nodes",
+          "x": 58,
+          "y": 90,
+          "text": "A sturdy jointed stem supports the grain head. Its nodes mark the points where leaves attach."
+        }
+      ]
+    }
+  ]
+}

@@ -8,8 +8,8 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 289,
-    "sha256": "3eda3af69a9f22dc2a172aacb6589f8ff3cc73aea9e2e858f81ac7bdde35419c"
+    "bytes": 302,
+    "sha256": "443a967097bb76cc28a71af8ee5a0a541fc7275aa3d3c447ca80a002ae630071"
   },
   {
     "path": "README.txt",
@@ -20,8 +20,8 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 2035,
-    "sha256": "6ec2603fa502109f1131092ec5bcc76fd8bd07660282ee64fee0137611eda2ed"
+    "bytes": 2246,
+    "sha256": "b14576c7a7da08136809a87a8cd5c4b2510b2af552c4014097986fc246f5c671"
   },
   {
     "path": "botany/cfia-brassica-napus-biology.html",
@@ -154,6 +154,138 @@
     "preserved_date": "2026-10-15",
     "bytes": 187671,
     "sha256": "7bc773d83c01b6df69b8aada9c2b5983d97f22f4551947cc5c00b87c663223ef"
+  },
+  {
+    "path": "previews/brookings.png",
+    "title": "Brookings \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://www.ars.usda.gov/ARSUserFiles/30421000/HardWinterWheatRegionalNurseryProgram/ANNUALREPORTS/1968.pdf",
+    "source_url": "",
+    "pages_or_context": "Derived from research/1969-usda-winter-wheat-personnel-notice.pdf, PDF page 3",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection.",
+    "preserved_date": "2026-10-15",
+    "bytes": 93943,
+    "sha256": "e09be3aaa010f00d7dbf2df129644e9db601fc3af9467f1647667cf273bacacc"
+  },
+  {
+    "path": "previews/camp-pendleton.png",
+    "title": "Camp Pendleton \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://www.ancestry.com/imageviewer/collections/1089/images/33068_272346-00643?pid=23247621",
+    "source_url": "https://www.ancestry.com/search/collections/1089/records/23247621",
+    "pages_or_context": "Derived from records/1953-01-26_Marine_unit_diary_23247621.jpg",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection.",
+    "preserved_date": "2026-10-15",
+    "bytes": 607587,
+    "sha256": "2aa174bde3d352890d2e9594ab7794ab644f2672344b48ad165f3d97c827b15c"
+  },
+  {
+    "path": "previews/elgin.png",
+    "title": "Elgin \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://www.ancestry.com/imageviewer/collections/2442/images/M-T0627-03003-00056?pid=100622899",
+    "source_url": "https://www.ancestry.com/search/collections/2442/records/100622899",
+    "pages_or_context": "Derived from records/1940_Elgin_ED19-7_sheet5A.jpg",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection.",
+    "preserved_date": "2026-10-15",
+    "bytes": 243514,
+    "sha256": "eed695a05d9245359f1a4ac3438524cc378fe70e97c0822ab21f5673ec23d4ee"
+  },
+  {
+    "path": "previews/fort-collins.png",
+    "title": "Fort Collins \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "source_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "pages_or_context": "Derived from research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf, PDF page 1",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection.",
+    "preserved_date": "2026-10-15",
+    "bytes": 50414,
+    "sha256": "264e5b3f1155e859f860198597dd9d6965625ba78613896f518c3f2d190ba03f"
+  },
+  {
+    "path": "previews/garden-city.png",
+    "title": "Garden City \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://extension.k-state.edu/historicpublications/pubs/SB663B.pdf",
+    "source_url": "https://www.ksre.k-state.edu/historicpublications/pubs/SB663B.pdf",
+    "pages_or_context": "Derived from research/01_Biography_Memorials_and_Photographs/2001_Hays_History_Stegmeier_Biography_EXCERPT.pdf, PDF page 1",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection.",
+    "preserved_date": "2026-10-15",
+    "bytes": 83770,
+    "sha256": "95434361ff797faa15253e9222941d988ed1ab562484c13374ff09df13afe598"
+  },
+  {
+    "path": "previews/green-bay.png",
+    "title": "Green Bay \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "source_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "pages_or_context": "Derived from research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf, PDF page 1",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection.",
+    "preserved_date": "2026-10-15",
+    "bytes": 26420,
+    "sha256": "a00e368f2e01b2c17f6a5847748aafdc45e054e4bebe8ba7c4f3a7c1bec134e4"
+  },
+  {
+    "path": "previews/hybrid-parents.png",
+    "title": "Hybrid Parents \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "source_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "pages_or_context": "Derived from research/02_Pearl_Millet_Research/1998_Pearl_Millet_Parental_Lines_843A_843B_EXCERPT.pdf, PDF page 1",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection.",
+    "preserved_date": "2026-10-15",
+    "bytes": 1155684,
+    "sha256": "d0e1376a38cd7a280cd94fd1f4c4ab8310f2b110dc2a27e22f56b245bfe4c504"
+  },
+  {
+    "path": "previews/minneapolis.png",
+    "title": "Minneapolis \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://www.veterans.nd.gov/sites/www/files/documents/resource/S.pdf",
+    "source_url": "",
+    "pages_or_context": "Derived from records/1968-north-dakota-veterans-register-s.pdf, PDF page 145",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection.",
+    "preserved_date": "2026-10-15",
+    "bytes": 16628,
+    "sha256": "f717ae8f1fb07efaed1b29ad6e044b877dbdcf11ada067b4a680b4574c35b4b8"
+  },
+  {
+    "path": "previews/preview-provenance.json",
+    "title": "preview-provenance",
+    "kind": "Research archive documentation",
+    "original_url": "",
+    "source_url": "",
+    "pages_or_context": "",
+    "notes": "",
+    "preserved_date": "2026-10-15",
+    "bytes": 2334,
+    "sha256": "1a4a493911b6a497e432a9ffbe6174bcf6e0264a31e3cc0c1f5fc6763098a1ef"
+  },
+  {
+    "path": "previews/remembering-bill.png",
+    "title": "Remembering Bill \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "source_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "pages_or_context": "Derived from research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf, PDF page 1",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection.",
+    "preserved_date": "2026-10-15",
+    "bytes": 40578,
+    "sha256": "8c1796f0269dfac6dabefb33ecc0f9df81d5b9d9fb764df7e265b70193128f7d"
+  },
+  {
+    "path": "previews/yuma.png",
+    "title": "Yuma \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "source_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "pages_or_context": "Derived from research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf, PDF page 1",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection.",
+    "preserved_date": "2026-10-15",
+    "bytes": 27160,
+    "sha256": "ebef37143e4b3bb6a9b4a16ea270b7802f8c465d1fb3519d1b0d5319782921b8"
   },
   {
     "path": "records/1940_Elgin_ED19-7_sheet5A.jpg",
@@ -896,7 +1028,7 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 31662,
-    "sha256": "49e412cde4532668a489d8a8f6bcbd80114d59c53405c1752e8d01cd56cfd17e"
+    "bytes": 38793,
+    "sha256": "065788a67c8218a265a54bfc6044ce15c321b15213172db70da6bccd4adbfc52"
   }
 ]

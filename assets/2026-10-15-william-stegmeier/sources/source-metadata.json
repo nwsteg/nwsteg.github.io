@@ -464,5 +464,85 @@
     "kind": "Original SVG figure",
     "source_url": "https://nwsteg.github.io/2026/10/15/william-d-stegmeier.html",
     "notes": "Original editable vector artwork for this post. Botanical drawings represent crop types, not specific cultivars. The life map uses the archived Census state boundaries."
+  },
+  "previews/green-bay.png": {
+    "title": "Green Bay \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "source_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "pages_or_context": "Derived from research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf, PDF page 1",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection."
+  },
+  "previews/yuma.png": {
+    "title": "Yuma \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "source_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "pages_or_context": "Derived from research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf, PDF page 1",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection."
+  },
+  "previews/fort-collins.png": {
+    "title": "Fort Collins \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "source_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "pages_or_context": "Derived from research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf, PDF page 1",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection."
+  },
+  "previews/remembering-bill.png": {
+    "title": "Remembering Bill \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "source_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "pages_or_context": "Derived from research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf, PDF page 1",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection."
+  },
+  "previews/minneapolis.png": {
+    "title": "Minneapolis \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://www.veterans.nd.gov/sites/www/files/documents/resource/S.pdf",
+    "source_url": "",
+    "pages_or_context": "Derived from records/1968-north-dakota-veterans-register-s.pdf, PDF page 145",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection."
+  },
+  "previews/brookings.png": {
+    "title": "Brookings \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://www.ars.usda.gov/ARSUserFiles/30421000/HardWinterWheatRegionalNurseryProgram/ANNUALREPORTS/1968.pdf",
+    "source_url": "",
+    "pages_or_context": "Derived from research/1969-usda-winter-wheat-personnel-notice.pdf, PDF page 3",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection."
+  },
+  "previews/garden-city.png": {
+    "title": "Garden City \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://extension.k-state.edu/historicpublications/pubs/SB663B.pdf",
+    "source_url": "https://www.ksre.k-state.edu/historicpublications/pubs/SB663B.pdf",
+    "pages_or_context": "Derived from research/01_Biography_Memorials_and_Photographs/2001_Hays_History_Stegmeier_Biography_EXCERPT.pdf, PDF page 1",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection."
+  },
+  "previews/hybrid-parents.png": {
+    "title": "Hybrid Parents \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "source_url": "https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf",
+    "pages_or_context": "Derived from research/02_Pearl_Millet_Research/1998_Pearl_Millet_Parental_Lines_843A_843B_EXCERPT.pdf, PDF page 1",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection."
+  },
+  "previews/elgin.png": {
+    "title": "Elgin \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://www.ancestry.com/imageviewer/collections/2442/images/M-T0627-03003-00056?pid=100622899",
+    "source_url": "https://www.ancestry.com/search/collections/2442/records/100622899",
+    "pages_or_context": "Derived from records/1940_Elgin_ED19-7_sheet5A.jpg",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection."
+  },
+  "previews/camp-pendleton.png": {
+    "title": "Camp Pendleton \u2014 figure preview",
+    "kind": "Rendered source excerpt",
+    "original_url": "https://www.ancestry.com/imageviewer/collections/1089/images/33068_272346-00643?pid=23247621",
+    "source_url": "https://www.ancestry.com/search/collections/1089/records/23247621",
+    "pages_or_context": "Derived from records/1953-01-26_Marine_unit_diary_23247621.jpg",
+    "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection."
   }
 }

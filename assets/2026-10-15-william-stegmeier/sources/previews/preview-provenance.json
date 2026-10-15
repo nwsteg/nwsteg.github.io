@@ -1,0 +1,110 @@
+[
+  {
+    "preview": "green-bay.png",
+    "source": "research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf",
+    "pdf_page": 1,
+    "normalized_crop": [
+      0.065,
+      0.661,
+      0.519,
+      0.695
+    ]
+  },
+  {
+    "preview": "yuma.png",
+    "source": "research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf",
+    "pdf_page": 1,
+    "normalized_crop": [
+      0.065,
+      0.691,
+      0.519,
+      0.726
+    ]
+  },
+  {
+    "preview": "fort-collins.png",
+    "source": "research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf",
+    "pdf_page": 1,
+    "normalized_crop": [
+      0.065,
+      0.724,
+      0.519,
+      0.79
+    ]
+  },
+  {
+    "preview": "remembering-bill.png",
+    "source": "research/01_Biography_Memorials_and_Photographs/1998_In_Memoriam_Bill_Stegmeier_C_Tom_Hash_EXCERPT.pdf",
+    "pdf_page": 1,
+    "normalized_crop": [
+      0.065,
+      0.194,
+      0.34,
+      0.275
+    ]
+  },
+  {
+    "preview": "minneapolis.png",
+    "source": "records/1968-north-dakota-veterans-register-s.pdf",
+    "pdf_page": 145,
+    "normalized_crop": [
+      0.408,
+      0.097,
+      0.649,
+      0.13
+    ]
+  },
+  {
+    "preview": "brookings.png",
+    "source": "research/1969-usda-winter-wheat-personnel-notice.pdf",
+    "pdf_page": 3,
+    "normalized_crop": [
+      0.2,
+      0.648,
+      0.846,
+      0.706
+    ]
+  },
+  {
+    "preview": "garden-city.png",
+    "source": "research/01_Biography_Memorials_and_Photographs/2001_Hays_History_Stegmeier_Biography_EXCERPT.pdf",
+    "pdf_page": 1,
+    "normalized_crop": [
+      0.49,
+      0.775,
+      0.85,
+      0.884
+    ]
+  },
+  {
+    "preview": "hybrid-parents.png",
+    "source": "research/02_Pearl_Millet_Research/1998_Pearl_Millet_Parental_Lines_843A_843B_EXCERPT.pdf",
+    "pdf_page": 1,
+    "normalized_crop": [
+      0.055,
+      0.055,
+      0.96,
+      0.935
+    ]
+  },
+  {
+    "preview": "elgin.png",
+    "source": "records/1940_Elgin_ED19-7_sheet5A.jpg",
+    "pixel_crop": [
+      1150,
+      2850,
+      3150,
+      3290
+    ]
+  },
+  {
+    "preview": "camp-pendleton.png",
+    "source": "records/1953-01-26_Marine_unit_diary_23247621.jpg",
+    "pixel_crop": [
+      195,
+      220,
+      2970,
+      1110
+    ]
+  }
+]
