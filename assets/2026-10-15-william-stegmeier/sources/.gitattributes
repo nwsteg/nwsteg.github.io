@@ -1,0 +1,10 @@
+# Keep archival documents byte-for-byte, including their original line endings.
+*.pdf binary
+*.jpg binary
+*.zip binary
+research/** -text -whitespace
+records/** -text
+
+# Inventories generated for this website use consistent line endings.
+source-inventory.csv text eol=lf
+*.json text eol=lf

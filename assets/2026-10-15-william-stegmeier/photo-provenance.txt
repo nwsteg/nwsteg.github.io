@@ -1,0 +1,23 @@
+Historical photographs for the William D. Stegmeier post
+
+These files are unchanged copies of the original embedded JPEGs in the family research archive. No enhancement, cropping, or resampling has been applied. Publication dates are not established dates of photography.
+
+bill-and-pearl.jpg
+Source: International Sorghum and Millets Newsletter 39 (1998), printed page 153 / PDF page 161.
+Caption: Bill Stegmeier and 'Pearl'.
+Dimensions: 625 x 422 pixels.
+Original photographer/date: not established.
+Source URL: https://the-eis.com/elibrary/sites/default/files/downloads/literature/International%20sorghum%20and%20millets%20newsletter%201998.pdf#page=161
+
+bill-at-hays-field-day.jpg
+Source: Kansas State AgReport, Spring 2017, printed page 11 / PDF page 13.
+Caption identifies Bill explaining pearl millet at a Hays field day.
+Publication credit: Courtesy of University Archives.
+Dimensions: 280 x 412 pixels.
+Original photographer/date: not established.
+This is the same scene reproduced at lower resolution in the 2001 Hays history.
+Source URL: https://www.k-state.edu/agreport/documents/ARSPRING2017-4-2.pdf#page=13
+
+SHA-256
+91da4a6d953588f6c9c3ab4db7695f6b84b6c9cea8d09a24fbfa6d80e7088c66  bill-and-pearl.jpg
+e37e1078cc741bb6373fc1405414058319e0ecb24b592b0397dd05e84dcf3109  bill-at-hays-field-day.jpg

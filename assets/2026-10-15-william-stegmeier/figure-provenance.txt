@@ -1,0 +1,42 @@
+Figures added October 15, 2026
+
+life-map.svg
+Original map drawn for this post with an Albers equal-area projection (standard parallels 29.5 and 45.5 degrees north; central meridian 96 degrees west).
+State boundary geometry: U.S. Census Bureau, 2024 cartographic boundaries, 1:20,000,000.
+https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_20m.zip
+State fills indicate documented connections, not land ownership or a historical jurisdiction claim.
+Markers show approximate city/base locations, not known street addresses. Map numbers identify places rather than a complete chronological route.
+Place connections: C. Tom Hash, ISMN 39 (1998), pp. 153–154, and North Dakota veterans register (1968), p. 1420.
+
+pearl-millet.svg, sunflower.svg, canola.svg, sorghum.svg
+Original decorative botanical drawings composed as SVG for this post. They illustrate the crop types, not specific cultivars or archival specimens.
+Research roles: Hays station history (2001), pp. 54–56; SRL77 (1984); SRP689 (1993); SRP763 (1996); SRP803 (1998); Seifers et al., Plant Disease 80 (1996), pp. 179–185. Full citations and links appear in the article.
+
+Life timeline
+Responsive HTML/CSS, with milestones from Hash’s memorial, the Hays station history, the 1998 parental-line articles, and the North Dakota veterans register. Colorado State degree dates remain unestablished; the 1940 census documents Elgin and reports rural Grant County residence in 1935. Dates are not plotted on a quantitative time axis.
+
+Refinement, October 15, 2026
+
+The crop specimens were redrawn as original SVGs (200 by 320 view boxes) and arranged in a single horizontal row. The following botanical characters were checked:
+- Pearl millet: elongated, dense cylindrical terminal inflorescence; fine bristles; linear-lanceolate grass blades attached at sheathing bases; nodal culm.
+- Sunflower: yellow ray florets around disk florets; broad cordate/ovate toothed leaves with petioles.
+- Canola, illustrated as Brassica napus: green terminal buds above open four-petaled yellow flowers; narrow siliques below; glaucous lobed lower leaves and smaller clasping upper leaves.
+- Grain sorghum: compact branched panicle carrying rounded grains; long grass blades and sheathing bases. Compactness and grain color vary among cultivars; the drawing represents a typical compact grain type.
+
+Morphology references:
+https://plants.ces.ncsu.edu/plants/cenchrus-americanus/
+https://gobotany.nativeplanttrust.org/species/helianthus/annuus/
+https://gobotany.nativeplanttrust.org/species/sorghum/bicolor/
+https://lehrgarten-agrarwissenschaften.uni-hohenheim.de/en/agronomic-educational-garden/arable-crops/oil-rich-grains
+https://bookstore.ksre.ksu.edu/pubs/sorghum-growth-and-development_MF3234.pdf
+
+These are explanatory illustrations, drawn independently in size and at different growth stages, rather than measured comparisons or depictions of Bill’s named lines.
+
+Education timeline refinement: USDA CR-11-69, published February 1969, p. 1 (PDF p. 3), records that Bill had resumed graduate study at South Dakota State. It does not establish the exact enrollment or completion date.
+
+Childhood and service refinement after Ancestry access, October 15, 2026:
+- Map marker 2 now marks Elgin, North Dakota (approximate city location 46.40139 N, 101.84750 W), replacing the earlier approximate Grant County marker. Location cross-check: https://en.wikipedia.org/wiki/Elgin,_North_Dakota . Childhood connection verified against the original 1940 census, ED 19-7, sheet 5A, household 99, lines 24-28; NARA T627 roll 3003, Ancestry image M-T0627-03003-00056.
+- Timeline adds the two childhood observations, 1935 rural Grant County and 1940 Elgin. It does not establish the exact Wisconsin-to-North Dakota move date.
+- Marine chronology refined using 13 original personnel entries, matched to the service number from the veterans register. San Diego recruit training is documented in February 1952; multiple Camp Pendleton units are documented in 1952-53. Selected map places do not represent every assignment or a complete route. No Korea posting was established.
+
+Source preservation update, October 15, 2026: the downloadable source collection includes unchanged USDA NRCS guides for pearl millet, sunflower and sorghum; Kansas State MF3234; and a self-contained text copy of CFIA's The biology of Brassica napus. These cross-check the earlier web references and now provide the article's downloadable botanical citations. Original PDFs, research excerpts, historical record scans, map dataset and SVG figures are hosted locally with source URLs and checksums in sources/source-inventory.csv.
