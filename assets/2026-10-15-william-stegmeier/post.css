@@ -46,6 +46,45 @@
   margin: 1.8em 0 1.4em 30px;
 }
 
+/* The station belongs beside the person and the research it made possible. */
+.stegmeier-post .station-years { margin-top: 2.8em; margin-bottom: 8px; }
+.stegmeier-post #western-kansas { margin-top: 0; }
+.stegmeier-post .station-feature {
+  margin: 1.8em 0;
+  padding: 26px 30px;
+  border: 1px solid var(--field-rule);
+  border-radius: 4px;
+  background: var(--field-paper);
+}
+.stegmeier-post .station-feature > .figure-kicker { margin-bottom: 24px; }
+.stegmeier-post .station-gallery {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 30px;
+  max-width: 550px;
+  margin: auto;
+}
+.stegmeier-post .station-gallery figure { margin: 0; min-width: 0; }
+.stegmeier-post .station-photo-pair {
+  display: grid;
+  gap: 15px;
+  max-width: 212px;
+  margin: auto;
+}
+.stegmeier-post .station-person > .photo-zoom { max-width: 190px; margin: auto; }
+.stegmeier-post .station-gallery .photo-zoom { padding: 5px; background: #fffdf8; box-shadow: 0 1px 4px #293f3520; }
+.stegmeier-post .station-gallery img { display: block; }
+.stegmeier-post .station-gallery figcaption { margin-top: 16px; font-size: 11px; color: #66705f; }
+.stegmeier-post .station-gallery a { color: #496749; text-underline-offset: 3px; }
+.stegmeier-post .station-gallery .photo-zoom-label { right: 8px; bottom: 8px; font-size: 9px; padding: 3px 6px; }
+
+@media screen and (max-width: 600px) {
+  .stegmeier-post .station-feature { padding: 22px 20px; }
+  .stegmeier-post .station-gallery { grid-template-columns: 1fr; gap: 28px; max-width: 290px; }
+  .stegmeier-post .station-gallery figcaption { margin-top: 13px; }
+}
+
 .stegmeier-post .clear-section {
   clear: both;
 }

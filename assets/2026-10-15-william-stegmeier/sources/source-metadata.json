@@ -848,5 +848,13 @@
     "source_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/1984_Fort_Hays_Branch_Station_Brochure.pdf#page=3",
     "pages_or_context": "Photograph date unrecorded; published September 1984; Composite raster from PDF page 3, image 1 (object 22), extracted with pdfimages and losslessly encoded as PNG",
     "notes": "Kansas State University \u00b7 \u00a9 Kansas State University. Fort Hays Branch Station, Special Publication, September 1984, PDF page 3. The upper photograph of the preserved composite is used for the web view. Publication date is established; exact exposure date is not given. Contextual illustration; copyright remains with the source publisher."
+  },
+  "places/views/hays-office-1984.jpg": {
+    "title": "Hays station office, published 1984",
+    "kind": "Cropped station photograph",
+    "original_url": "https://extension.k-state.edu/historicpublications/pubs/fthays.pdf",
+    "source_url": "https://extension.k-state.edu/historicpublications/pubs/fthays.pdf",
+    "pages_or_context": "PDF page 3; lower photograph in composite image 1; exposure date unrecorded",
+    "notes": "Kansas State University. Crop (8, 158, 220, 287) from preserved originals/hays-1984.png, saved as JPEG without retouching. Copyright remains with the source publisher."
   }
 }

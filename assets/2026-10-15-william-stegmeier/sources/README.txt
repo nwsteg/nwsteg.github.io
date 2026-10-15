@@ -9,3 +9,6 @@ The botany folder adds government plant guides and a Kansas State guide supporti
 Sources copied from the original archive and the later downloaded record images are preserved byte for byte. Source attribution and existing notices are retained. Copyrights remain with the respective authors and publishers; this collection does not grant additional reuse rights. Source URLs, context, file sizes and SHA-256 checksums are in source-inventory.csv and source-inventory.json. SHA256SUMS.txt covers the individual files and inventories. The combined ZIP contains this directory's files except the ZIP itself. No account credentials, private correspondence, or draft record requests are included.
 
 To refresh the inventories and combined ZIP after an intentional source addition, run scripts/build_stegmeier_source_archive.py from the website repository. This does not download anything or modify the source documents.
+
+HAYS STATION FEATURE
+The 1984 Fort Hays Branch Station brochure is preserved in the biography folder. Its page-3 station aerial and office photographs illustrate Bill’s Hays years (1971–1998); publication date is established, but their exposure dates are unrecorded. Cropped JPEG views retain their original composite PNG, crop metadata, and full PDF. Bill’s field-day photograph retains its separate AgReport publication credit and unknown date.

@@ -53,7 +53,7 @@
     connectors.classList.add("map-connectors");
     connectors.setAttribute("aria-hidden", "true");
     layer.append(connectors);
-    let selected = 1;
+    let selected = 9;
     let previewId = null;
     let closeTimer;
     let focusSuppressed = false;
@@ -275,7 +275,7 @@
   }
 
   enhanceViewer();
-  fetch(`${base}figures-data.json?v=4`).then(response => {
+  fetch(`${base}figures-data.json?v=5`).then(response => {
     if (!response.ok) throw new Error("Figure data unavailable");
     return response.json();
   }).then(data => {

@@ -20,8 +20,8 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 2995,
-    "sha256": "24f9a3f6051b90a9b5538d49f1a20f050dfceedac5bb430c28b3cdeee18cdfdb"
+    "bytes": 3449,
+    "sha256": "23888764de9466737fac40beb373214975c4c51408eb47bd2429472e0f3aaf23"
   },
   {
     "path": "botany/cfia-brassica-napus-biology.html",
@@ -562,6 +562,18 @@
     "preserved_date": "2026-10-15",
     "bytes": 12506,
     "sha256": "2beddf7f46443501ecb8c981a147b37ea883128b9a724495d4a81e4f75d1a58d"
+  },
+  {
+    "path": "places/views/hays-office-1984.jpg",
+    "title": "Hays station office, published 1984",
+    "kind": "Cropped station photograph",
+    "original_url": "https://extension.k-state.edu/historicpublications/pubs/fthays.pdf",
+    "source_url": "https://extension.k-state.edu/historicpublications/pubs/fthays.pdf",
+    "pages_or_context": "PDF page 3; lower photograph in composite image 1; exposure date unrecorded",
+    "notes": "Kansas State University. Crop (8, 158, 220, 287) from preserved originals/hays-1984.png, saved as JPEG without retouching. Copyright remains with the source publisher.",
+    "preserved_date": "2026-10-15",
+    "bytes": 11364,
+    "sha256": "9ec1c00cf21e9cda6060edd8c89301b2c5ebaa5d8098ebc39255f778c55bffad"
   },
   {
     "path": "places/views/hays.jpg",
@@ -1532,7 +1544,7 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 66026,
-    "sha256": "5b586f936ecbf89fc091901ea8ccd4bd3bebeb0dc9ec3dda1d480673f015a244"
+    "bytes": 66630,
+    "sha256": "b37811e8abd2b57727b30dd841b1bf820f79128e665678c0e93b87e43806c887"
   }
 ]

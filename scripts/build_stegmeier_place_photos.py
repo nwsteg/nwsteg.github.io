@@ -68,6 +68,20 @@ def main():
 <p>{p['caption']}</p><p><strong>{escape(credit)}</strong></p>
 <p><a href="{p['sourceUrl']}">Source and attribution</a> · <a href="{p['licenseUrl']}">{p['license']}</a> · <a href="{p['original']}" download>Download photograph</a></p>
 <p class="rights">{p['rightsNote']} {view_note}</p>{related}</section>''')
+    # A second view of the same preserved 1984 composite for the Hays feature.
+    office_view = "views/hays-office-1984.jpg"
+    with Image.open(PHOTOS / "originals/hays-1984.png") as original:
+        original.convert("RGB").crop((8, 158, 220, 287)).save(
+            PHOTOS / office_view, quality=88, optimize=True
+        )
+    metadata["places/" + office_view] = {
+        "title": "Hays station office, published 1984",
+        "kind": "Cropped station photograph",
+        "original_url": "https://extension.k-state.edu/historicpublications/pubs/fthays.pdf",
+        "source_url": "https://extension.k-state.edu/historicpublications/pubs/fthays.pdf",
+        "pages_or_context": "PDF page 3; lower photograph in composite image 1; exposure date unrecorded",
+        "notes": "Kansas State University. Crop (8, 158, 220, 287) from preserved originals/hays-1984.png, saved as JPEG without retouching. Copyright remains with the source publisher.",
+    }
     (PHOTOS / "credits.html").write_text('''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Photographs of the places in Bill Stegmeier’s life</title>
