@@ -87,7 +87,21 @@
       "x": 805.1,
       "y": 248.1,
       "record": "green-bay",
-      "summary": "Born October 4, 1931, to William and Marie Stegmeier. His colleague’s memorial preserves the birthplace and date."
+      "summary": "Born October 4, 1931, to William and Marie Stegmeier. His colleague’s memorial preserves the birthplace and date.",
+      "photo": {
+        "image": "/assets/2026-10-15-william-stegmeier/sources/places/views/green-bay.jpg",
+        "original": "/assets/2026-10-15-william-stegmeier/sources/places/originals/green-bay.jpg",
+        "alt": "Downtown Green Bay reflected in the Fox River at dusk.",
+        "title": "Downtown Green Bay across the Fox River",
+        "year": "2012",
+        "caption": "A modern view across the Fox River toward downtown Green Bay.",
+        "credit": "Chris Rand · CC BY-SA 3.0",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "/assets/2026-10-15-william-stegmeier/sources/places/credits.html#green-bay",
+        "width": 1280,
+        "height": 674
+      }
     },
     {
       "id": 2,
@@ -97,7 +111,21 @@
       "x": 566.9,
       "y": 204.7,
       "record": "elgin",
-      "summary": "The census finds eight-year-old Bill living with his parents and two younger sisters in Elgin. It also reports rural Grant County residence in 1935."
+      "summary": "The census finds eight-year-old Bill living with his parents and two younger sisters in Elgin. It also reports rural Grant County residence in 1935.",
+      "photo": {
+        "image": "/assets/2026-10-15-william-stegmeier/sources/places/views/elgin.jpg",
+        "original": "/assets/2026-10-15-william-stegmeier/sources/places/originals/elgin.jpg",
+        "alt": "A black-and-white street photograph of the Elgin Hotel, a nearby automobile shop and parked vehicles in Elgin, North Dakota.",
+        "title": "The Elgin Hotel and neighboring storefronts",
+        "year": "1952",
+        "caption": "Elgin’s street scene in 1952, twelve years after the census found Bill’s family there.",
+        "credit": "Frank Agar Jr. · Noncommercial educational use. Image courtesy of the University of North Dakota.",
+        "license": "Noncommercial educational use",
+        "licenseUrl": "https://commons.und.edu/uac-all/3355/#rights",
+        "source": "/assets/2026-10-15-william-stegmeier/sources/places/credits.html#elgin",
+        "width": 400,
+        "height": 332
+      }
     },
     {
       "id": 3,
@@ -107,7 +135,21 @@
       "x": 713.4,
       "y": 242.0,
       "record": "minneapolis",
-      "summary": "The veterans register records his entry into the United States Marine Corps here on December 18, 1951."
+      "summary": "The veterans register records his entry into the United States Marine Corps here on December 18, 1951.",
+      "photo": {
+        "image": "/assets/2026-10-15-william-stegmeier/sources/places/views/minneapolis.jpg",
+        "original": "/assets/2026-10-15-william-stegmeier/sources/places/originals/minneapolis.jpg",
+        "alt": "The Stone Arch Bridge walkway leading toward the Minneapolis skyline.",
+        "title": "Minneapolis from the Stone Arch Bridge",
+        "year": "2021",
+        "caption": "The Mill District and downtown skyline, seen from the Stone Arch Bridge.",
+        "credit": "w_lemay · CC BY-SA 2.0",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "/assets/2026-10-15-william-stegmeier/sources/places/credits.html#minneapolis",
+        "width": 1280,
+        "height": 960
+      }
     },
     {
       "id": 4,
@@ -117,7 +159,21 @@
       "x": 286.3,
       "y": 509.0,
       "record": "yuma",
-      "summary": "Bill and Jean Cromer married in Yuma on January 2, 1953, during his Marine Corps years."
+      "summary": "Bill and Jean Cromer married in Yuma on January 2, 1953, during his Marine Corps years.",
+      "photo": {
+        "image": "/assets/2026-10-15-william-stegmeier/sources/places/views/yuma.jpg",
+        "original": "/assets/2026-10-15-william-stegmeier/sources/places/originals/yuma.jpg",
+        "alt": "Historic storefronts, palm trees and a fountain in downtown Yuma.",
+        "title": "Downtown Yuma",
+        "year": "2010",
+        "caption": "Historic downtown Yuma, photographed decades after Bill and Jean’s wedding.",
+        "credit": "Ken Lund · CC BY-SA 2.0",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "/assets/2026-10-15-william-stegmeier/sources/places/credits.html#yuma",
+        "width": 1280,
+        "height": 960
+      }
     },
     {
       "id": 5,
@@ -127,7 +183,21 @@
       "x": 234.1,
       "y": 482.5,
       "record": "camp-pendleton",
-      "summary": "Records place him in a signal company at Camp Pendleton and later in a training regiment. He separated here as a corporal on December 3, 1953. A posting in Korea remains unestablished."
+      "summary": "Records place him in a signal company at Camp Pendleton and later in a training regiment. He separated here as a corporal on December 3, 1953. A posting in Korea remains unestablished.",
+      "photo": {
+        "image": "/assets/2026-10-15-william-stegmeier/sources/places/views/camp-pendleton.jpg",
+        "original": "/assets/2026-10-15-william-stegmeier/sources/places/originals/camp-pendleton.jpg",
+        "alt": "Camp Pendleton’s entrance road, gate sign and American flag.",
+        "title": "Camp Pendleton’s main entrance",
+        "year": "1997",
+        "caption": "The main entrance to Camp Pendleton, photographed in 1997.",
+        "credit": "SSGT RICHARD P. TUDOR, USMC · Public domain",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Marines",
+        "source": "/assets/2026-10-15-william-stegmeier/sources/places/credits.html#camp-pendleton",
+        "width": 846,
+        "height": 574
+      }
     },
     {
       "id": 6,
@@ -137,7 +207,21 @@
       "x": 498.5,
       "y": 343.0,
       "record": "fort-collins",
-      "summary": "Bill earned bachelor’s and master’s degrees at Colorado State University. Their dates have not yet been established."
+      "summary": "Bill earned bachelor’s and master’s degrees at Colorado State University. Their dates have not yet been established.",
+      "photo": {
+        "image": "/assets/2026-10-15-william-stegmeier/sources/places/views/fort-collins.jpg",
+        "original": "/assets/2026-10-15-william-stegmeier/sources/places/originals/fort-collins.jpg",
+        "alt": "A walkway beneath mature trees beside the Oval lawn at Colorado State University.",
+        "title": "The Oval at Colorado State University",
+        "year": "2011",
+        "caption": "A tree-lined walk through the Oval on Colorado State’s Fort Collins campus.",
+        "credit": "Spilly816 · CC BY-SA 3.0",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "/assets/2026-10-15-william-stegmeier/sources/places/credits.html#fort-collins",
+        "width": 1280,
+        "height": 720
+      }
     },
     {
       "id": 7,
@@ -147,7 +231,21 @@
       "x": 652.1,
       "y": 259.0,
       "record": "brookings",
-      "summary": "A USDA report issued in February 1969 records that he had resumed graduate study at South Dakota State. It gives no exact enrollment or completion date."
+      "summary": "A USDA report issued in February 1969 records that he had resumed graduate study at South Dakota State. It gives no exact enrollment or completion date.",
+      "photo": {
+        "image": "/assets/2026-10-15-william-stegmeier/sources/places/views/brookings.jpg",
+        "original": "/assets/2026-10-15-william-stegmeier/sources/places/originals/brookings.jpg",
+        "alt": "The Administration Building and grounds at South Dakota State University.",
+        "title": "South Dakota State University campus",
+        "year": "2013",
+        "caption": "The Administration Building on South Dakota State’s Brookings campus.",
+        "credit": "AlexiusHoratius · CC BY-SA 3.0",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "/assets/2026-10-15-william-stegmeier/sources/places/credits.html#brookings",
+        "width": 1280,
+        "height": 816
+      }
     },
     {
       "id": 8,
@@ -157,7 +255,21 @@
       "x": 572.8,
       "y": 413.3,
       "record": "garden-city",
-      "summary": "His Kansas State career began at Garden City in 1958. He studied familiar grains and possible alternative crops before moving to Hays."
+      "summary": "His Kansas State career began at Garden City in 1958. He studied familiar grains and possible alternative crops before moving to Hays.",
+      "photo": {
+        "image": "/assets/2026-10-15-william-stegmeier/sources/places/views/garden-city.jpg",
+        "original": "/assets/2026-10-15-william-stegmeier/sources/places/originals/garden-city.jpg",
+        "alt": "The brick Southwest Research-Extension Center building and entrance sign in Garden City, Kansas.",
+        "title": "Southwest Research-Extension Center, Garden City",
+        "year": "Published 2025",
+        "caption": "The research center at Garden City in a photograph published by K-State in 2025.",
+        "credit": "K-State Research and Extension · © Kansas State University",
+        "license": "© Kansas State University",
+        "licenseUrl": "https://extension.k-state.edu/news-and-publications/news/stories/2025/08/agriculture-swrec-field-day.html",
+        "source": "/assets/2026-10-15-william-stegmeier/sources/places/credits.html#garden-city",
+        "width": 960,
+        "height": 400
+      }
     },
     {
       "id": 9,
@@ -167,7 +279,21 @@
       "x": 603.1,
       "y": 392.1,
       "record": "hays",
-      "summary": "At Hays, Bill bred pearl millet and sunflower and explored other crops. This field-day photograph shows him explaining pearl millet; its date is unknown."
+      "summary": "At Hays, Bill bred pearl millet and sunflower and explored other crops. He worked at the station from 1971 until his retirement in May 1998.",
+      "photo": {
+        "image": "/assets/2026-10-15-william-stegmeier/sources/places/views/hays.jpg",
+        "original": "/assets/2026-10-15-william-stegmeier/sources/places/originals/hays.jpg",
+        "alt": "An aerial photograph of the Hays agricultural research station, with brick buildings, research plots, barns and shelterbelts.",
+        "title": "Agricultural Research Center–Hays from the air",
+        "year": "2000",
+        "caption": "An aerial view of the Hays research station in 2000, two years after Bill retired.",
+        "credit": "Kansas State University · © Kansas State University",
+        "license": "© Kansas State University",
+        "licenseUrl": "https://www.wkrec.org/about/locations/ARCH-100_History.pdf",
+        "source": "/assets/2026-10-15-william-stegmeier/sources/places/credits.html#hays",
+        "width": 458,
+        "height": 348
+      }
     }
   ],
   "timeline": [

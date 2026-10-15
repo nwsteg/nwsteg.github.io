@@ -5,7 +5,7 @@
   const escape = value => String(value).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const reducedMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const compactMap = () => window.matchMedia("(max-width: 600px), (hover: none)").matches;
-  const imageMarkup = record => `<a class="record-image-link" href="${escape(record.image)}" data-zoom data-credit="${escape(record.credit)}" data-source="${escape(record.source)}"><img src="${escape(record.image)}" alt="${escape(record.alt)}"><span>Enlarge image ↗</span></a>`;
+  const photoMarkup = photo => `<a class="record-image-link place-photo-link" href="${escape(photo.image)}" data-zoom data-credit="${escape(photo.caption + ' ' + photo.credit)}" data-source="${escape(photo.source)}" data-download="${escape(photo.original)}"><img src="${escape(photo.image)}" alt="${escape(photo.alt)}" width="${photo.width}" height="${photo.height}"><span>Enlarge photograph ↗</span></a><p class="place-photo-caption">${escape(photo.caption)}</p><p class="place-photo-credit">${escape(photo.credit)} <a href="${escape(photo.source)}">Photo details →</a></p>`;
 
   function enhanceViewer() {
     const viewer = document.querySelector("#record-viewer");
@@ -22,7 +22,7 @@
       viewer.querySelector(".record-viewer-credit").textContent = link.dataset.credit || "";
       const source = viewer.querySelector(".record-viewer-source");
       source.href = link.dataset.source || link.href;
-      viewer.querySelector(".record-viewer-download").href = link.href;
+      viewer.querySelector(".record-viewer-download").href = link.dataset.download || link.href;
       viewer.showModal();
       document.documentElement.classList.add("record-viewer-open");
     });
@@ -89,9 +89,9 @@
     function showPreview(place, marker) {
       clearTimeout(closeTimer);
       if (compactMap() || focusSuppressed) return;
-      const record = recordFor(place);
+      const photo = place.photo;
       previewId = place.id;
-      preview.innerHTML = `<img src="${escape(record.image)}" alt="${escape(record.alt)}"><div><strong>${escape(place.title)}</strong><span>${escape(place.date)}</span><p>${escape(record.credit)}</p><small>Select the number to explore this record ↓</small></div>`;
+      preview.innerHTML = `<img src="${escape(photo.image)}" alt="${escape(photo.alt)}"><div><strong>${escape(place.title)}</strong><span>${escape(place.date)}</span><p class="map-photo-subject">${escape(photo.title)} · ${escape(photo.year)}</p><p>${escape(photo.credit)}</p><small>Select the number for the photograph and Bill’s story ↓</small></div>`;
       preview.hidden = false;
       marker.setAttribute("aria-describedby", "map-preview");
       positionPreview();
@@ -121,7 +121,7 @@
         const active = Number(link.dataset.place) === selected;
         link.setAttribute("aria-pressed", String(active));
       });
-      panel.innerHTML = `<div class="explorer-heading"><p class="figure-kicker">${String(place.id).padStart(2, "0")} / 09 · ${escape(place.date)}</p><div class="explorer-nav"><button type="button" data-place-step="-1" aria-label="Previous place">←</button><button type="button" data-place-step="1" aria-label="Next place">→</button></div></div><div class="place-record"><div class="place-record-image">${imageMarkup(record)}</div><div class="place-record-copy"><h4 id="map-detail-title">${escape(place.title)}</h4><p>${escape(place.summary)}</p><a class="evidence-source" href="${escape(record.source)}">${escape(record.sourceLabel)} →</a><p class="evidence-credit">${escape(record.credit)}</p></div></div><p class="explorer-status visually-hidden" role="status">Selected ${escape(place.title)}.</p>`;
+      panel.innerHTML = `<div class="explorer-heading"><p class="figure-kicker">${String(place.id).padStart(2, "0")} / 09 · ${escape(place.date)}</p><div class="explorer-nav"><button type="button" data-place-step="-1" aria-label="Previous place">←</button><button type="button" data-place-step="1" aria-label="Next place">→</button></div></div><div class="place-record"><div class="place-record-image">${photoMarkup(place.photo)}</div><div class="place-record-copy"><h4 id="map-detail-title">${escape(place.title)}</h4><p>${escape(place.summary)}</p><p class="map-evidence-label">The record behind this place</p><a class="evidence-source" href="${escape(record.source)}">${escape(record.sourceLabel)} →</a><p class="evidence-credit">${escape(record.credit)}</p></div></div><p class="explorer-status visually-hidden" role="status">Selected ${escape(place.title)}.</p>`;
       panel.hidden = false;
       panel.querySelectorAll("[data-place-step]").forEach(button => button.addEventListener("click", () => {
         const next = ((selected - 1 + Number(button.dataset.placeStep) + data.places.length) % data.places.length) + 1;
@@ -184,8 +184,8 @@
     });
     function updateInstructions() {
       figure.querySelector("#map-instructions").textContent = compactMap()
-        ? "Tap a number or choose a place below to explore its record."
-        : "Hover over a number for a preview. Select it to explore the record below. Use arrow keys between map markers.";
+        ? "Tap a number or choose a place below to see a photograph and Bill’s connection to the place."
+        : "Hover over a number for a photograph. Select it to explore the place below. Use arrow keys between map markers.";
     }
     const image = canvas.querySelector("[data-map-background]");
     function layoutMarkers() {
@@ -275,7 +275,7 @@
   }
 
   enhanceViewer();
-  fetch(`${base}figures-data.json?v=2`).then(response => {
+  fetch(`${base}figures-data.json?v=3`).then(response => {
     if (!response.ok) throw new Error("Figure data unavailable");
     return response.json();
   }).then(data => {

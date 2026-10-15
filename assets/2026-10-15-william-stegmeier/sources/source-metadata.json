@@ -544,5 +544,149 @@
     "source_url": "https://www.ancestry.com/search/collections/1089/records/23247621",
     "pages_or_context": "Derived from records/1953-01-26_Marine_unit_diary_23247621.jpg",
     "notes": "Cropped source reproduction for the interactive figures. No generated imagery or changes to the source text. Crop coordinates are in preview-provenance.json; the full original remains in the collection."
+  },
+  "places/originals/green-bay.jpg": {
+    "title": "Downtown Green Bay across the Fox River",
+    "kind": "Place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Downtown_Green_Bay.JPG",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Downtown_Green_Bay.JPG",
+    "pages_or_context": "2012-09-08; Source JPEG, preserved byte for byte",
+    "notes": "Chris Rand \u00b7 CC BY-SA 3.0. The web-sized copy retains the source license; resized without cropping."
+  },
+  "places/views/green-bay.jpg": {
+    "title": "Downtown Green Bay across the Fox River",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Downtown_Green_Bay.JPG",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Downtown_Green_Bay.JPG",
+    "pages_or_context": "2012-09-08; Source JPEG, preserved byte for byte",
+    "notes": "Chris Rand \u00b7 CC BY-SA 3.0. The web-sized copy retains the source license; resized without cropping."
+  },
+  "places/originals/elgin.jpg": {
+    "title": "The Elgin Hotel and neighboring storefronts",
+    "kind": "Place photograph",
+    "original_url": "https://commons.und.edu/uac-all/3355/",
+    "source_url": "https://commons.und.edu/uac-all/4306/preview.jpg",
+    "pages_or_context": "1952; Published archive preview, preserved byte for byte",
+    "notes": "Frank Agar Jr. \u00b7 Noncommercial educational use. Image courtesy of the University of North Dakota.. Photographed in 1952; print developed in 1982. Image courtesy of the University of North Dakota. The repository permits public noncommercial educational reproduction with this credit; artist copyright may apply."
+  },
+  "places/views/elgin.jpg": {
+    "title": "The Elgin Hotel and neighboring storefronts",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://commons.und.edu/uac-all/3355/",
+    "source_url": "https://commons.und.edu/uac-all/4306/preview.jpg",
+    "pages_or_context": "1952; Published archive preview, preserved byte for byte",
+    "notes": "Frank Agar Jr. \u00b7 Noncommercial educational use. Image courtesy of the University of North Dakota.. Photographed in 1952; print developed in 1982. Image courtesy of the University of North Dakota. The repository permits public noncommercial educational reproduction with this credit; artist copyright may apply."
+  },
+  "places/originals/minneapolis.jpg": {
+    "title": "Minneapolis from the Stone Arch Bridge",
+    "kind": "Place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Minneapolis_Skyline_from_Stone_Arch_Bridge,_Mill_District,_Minneapolis,_MN.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Minneapolis_Skyline_from_Stone_Arch_Bridge%2C_Mill_District%2C_Minneapolis%2C_MN.jpg",
+    "pages_or_context": "2021-09-25; Source JPEG, preserved byte for byte",
+    "notes": "w_lemay \u00b7 CC BY-SA 2.0. The web-sized copy retains the source license; resized without cropping."
+  },
+  "places/views/minneapolis.jpg": {
+    "title": "Minneapolis from the Stone Arch Bridge",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Minneapolis_Skyline_from_Stone_Arch_Bridge,_Mill_District,_Minneapolis,_MN.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Minneapolis_Skyline_from_Stone_Arch_Bridge%2C_Mill_District%2C_Minneapolis%2C_MN.jpg",
+    "pages_or_context": "2021-09-25; Source JPEG, preserved byte for byte",
+    "notes": "w_lemay \u00b7 CC BY-SA 2.0. The web-sized copy retains the source license; resized without cropping."
+  },
+  "places/originals/yuma.jpg": {
+    "title": "Downtown Yuma",
+    "kind": "Place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Downtown_Yuma_Arizona_(3).jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Downtown_Yuma_Arizona_%283%29.jpg",
+    "pages_or_context": "2010-02-27; Source JPEG, preserved byte for byte",
+    "notes": "Ken Lund \u00b7 CC BY-SA 2.0. The web-sized copy retains the source license; resized without cropping."
+  },
+  "places/views/yuma.jpg": {
+    "title": "Downtown Yuma",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Downtown_Yuma_Arizona_(3).jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Downtown_Yuma_Arizona_%283%29.jpg",
+    "pages_or_context": "2010-02-27; Source JPEG, preserved byte for byte",
+    "notes": "Ken Lund \u00b7 CC BY-SA 2.0. The web-sized copy retains the source license; resized without cropping."
+  },
+  "places/originals/camp-pendleton.jpg": {
+    "title": "Camp Pendleton\u2019s main entrance",
+    "kind": "Place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Camp_Pendleton_front_gate.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Camp_Pendleton_front_gate.jpg",
+    "pages_or_context": "1997-11-12; Source JPEG, preserved byte for byte",
+    "notes": "SSGT RICHARD P. TUDOR, USMC \u00b7 Public domain. The web-sized copy retains the source license; resized without cropping."
+  },
+  "places/views/camp-pendleton.jpg": {
+    "title": "Camp Pendleton\u2019s main entrance",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Camp_Pendleton_front_gate.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Camp_Pendleton_front_gate.jpg",
+    "pages_or_context": "1997-11-12; Source JPEG, preserved byte for byte",
+    "notes": "SSGT RICHARD P. TUDOR, USMC \u00b7 Public domain. The web-sized copy retains the source license; resized without cropping."
+  },
+  "places/originals/fort-collins.jpg": {
+    "title": "The Oval at Colorado State University",
+    "kind": "Place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:CSU_The_Oval.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/CSU_The_Oval.jpg",
+    "pages_or_context": "2011-09-26; Source JPEG, preserved byte for byte",
+    "notes": "Spilly816 \u00b7 CC BY-SA 3.0. The web-sized copy retains the source license; resized without cropping."
+  },
+  "places/views/fort-collins.jpg": {
+    "title": "The Oval at Colorado State University",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:CSU_The_Oval.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/CSU_The_Oval.jpg",
+    "pages_or_context": "2011-09-26; Source JPEG, preserved byte for byte",
+    "notes": "Spilly816 \u00b7 CC BY-SA 3.0. The web-sized copy retains the source license; resized without cropping."
+  },
+  "places/originals/brookings.jpg": {
+    "title": "South Dakota State University campus",
+    "kind": "Place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Administration_Building_SDSU_2.JPG",
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Administration_Building_SDSU_2.JPG/1280px-Administration_Building_SDSU_2.JPG",
+    "pages_or_context": "2013-05-25; 1280-pixel Wikimedia preview, preserved byte for byte",
+    "notes": "AlexiusHoratius \u00b7 CC BY-SA 3.0. The web-sized copy retains the source license; resized without cropping."
+  },
+  "places/views/brookings.jpg": {
+    "title": "South Dakota State University campus",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Administration_Building_SDSU_2.JPG",
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Administration_Building_SDSU_2.JPG/1280px-Administration_Building_SDSU_2.JPG",
+    "pages_or_context": "2013-05-25; 1280-pixel Wikimedia preview, preserved byte for byte",
+    "notes": "AlexiusHoratius \u00b7 CC BY-SA 3.0. The web-sized copy retains the source license; resized without cropping."
+  },
+  "places/originals/garden-city.jpg": {
+    "title": "Southwest Research-Extension Center, Garden City",
+    "kind": "Place photograph",
+    "original_url": "https://extension.k-state.edu/news-and-publications/news/stories/2025/08/agriculture-swrec-field-day.html",
+    "source_url": "https://extension.k-state.edu/news-and-publications/news/images/2025/about-us/swrec-front.jpg",
+    "pages_or_context": "Photo date unreported; published 2025-08-14; Published news photograph, preserved byte for byte",
+    "notes": "K-State Research and Extension \u00b7 \u00a9 Kansas State University. Contextual illustration in this noncommercial research biography. Copyright remains with Kansas State University; this collection grants no broader reuse rights."
+  },
+  "places/views/garden-city.jpg": {
+    "title": "Southwest Research-Extension Center, Garden City",
+    "kind": "Web-sized place photograph",
+    "original_url": "https://extension.k-state.edu/news-and-publications/news/stories/2025/08/agriculture-swrec-field-day.html",
+    "source_url": "https://extension.k-state.edu/news-and-publications/news/images/2025/about-us/swrec-front.jpg",
+    "pages_or_context": "Photo date unreported; published 2025-08-14; Published news photograph, preserved byte for byte",
+    "notes": "K-State Research and Extension \u00b7 \u00a9 Kansas State University. Contextual illustration in this noncommercial research biography. Copyright remains with Kansas State University; this collection grants no broader reuse rights."
+  },
+  "places/originals/hays.jpg": {
+    "title": "Agricultural Research Center\u2013Hays from the air",
+    "kind": "Place photograph",
+    "original_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/2001_Hays_History_Complete_SB663.pdf#page=1",
+    "source_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/2001_Hays_History_Complete_SB663.pdf#page=1",
+    "pages_or_context": "2000; Embedded JPEG extracted without alteration from PDF page 1, image 0, object 730 of SB663; photograph date identified on PDF page 3",
+    "notes": "Kansas State University \u00b7 \u00a9 Kansas State University. Cover photograph reproduced from William M. Phillips, A History of the Agricultural Research Center\u2013Hays: The First 100 Years, Kansas State University, Bulletin 663 (2001). Contextual illustration; copyright remains with the source publisher. No broader reuse rights are granted."
+  },
+  "places/views/hays.jpg": {
+    "title": "Agricultural Research Center\u2013Hays from the air",
+    "kind": "Web-sized place photograph",
+    "original_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/2001_Hays_History_Complete_SB663.pdf#page=1",
+    "source_url": "/assets/2026-10-15-william-stegmeier/sources/research/01_Biography_Memorials_and_Photographs/2001_Hays_History_Complete_SB663.pdf#page=1",
+    "pages_or_context": "2000; Embedded JPEG extracted without alteration from PDF page 1, image 0, object 730 of SB663; photograph date identified on PDF page 3",
+    "notes": "Kansas State University \u00b7 \u00a9 Kansas State University. Cover photograph reproduced from William M. Phillips, A History of the Agricultural Research Center\u2013Hays: The First 100 Years, Kansas State University, Bulletin 663 (2001). Contextual illustration; copyright remains with the source publisher. No broader reuse rights are granted."
   }
 }
