@@ -2,17 +2,21 @@
 
 Public-access attempts were made without bypassing paywalls, authentication, or certificate/security restrictions. A catalogue record is not a substitute for a full-text PDF. Repository endpoints may change or recover later.
 
-## Registration of Plainsman Rapeseed (2000)
-- Status: partial; full article missing
-- Source: https://doi.org/10.2135/cropsci2000.0006rcv
-- Attempted download: https://www.researchgate.net/profile/David-Baltensperger/publication/265642581_Registration_of_%27Plainsman%27_Winter_Rapeseed/links/55f1c4ab08aedecb690209e0/Registration-of-Plainsman-Winter-Rapeseed.pdf
-- Notes: Public author upload contains first page only, ending mid-sentence. PublisherPDF403. Crossref confirms full author list and pages.
+## Full texts recovered privately on October 16, 2026
 
-## Sunflower Genotype Response to Photoperiod and Temperature in Field Environments (1989)
-- Status: missing
-- Source: https://doi.org/10.2134/agronj1989.00021962008100050025x
-- Attempted download: 
-- Notes: Publisher PDF403; no public institutional/author alternative located.
+These two articles are no longer missing from the family archive. Their full PDFs are not distributed in this public collection because public redistribution rights have not been established.
+
+### Registration of ‘Plainsman’ Rapeseed (2000)
+- Status: complete three-page text held privately; the public archive retains the earlier first-page-only copy
+- Citation: C. L. Rife; D. L. Auld; W. D. Stegmeier; H. D. Sunderman; W. F. Heer; D. D. Baltensperger; L. A. Nelson; D. L. Johnson; D. Bordovsky; H. C. Minor. Crop Science 40(1):292–294.
+- Publisher: https://doi.org/10.2135/cropsci2000.0006rcv
+
+### Sunflower Genotype Response to Photoperiod and Temperature in Field Environments (1989)
+- Status: complete six-page text held privately; publisher link only in the public collection
+- Citation: P. J. Goyne; A. A. Schneiter; K. C. Cleary; R. A. Creelman; W. D. Stegmeier; F. J. Wooding. Agronomy Journal 81(5):826–831.
+- Publisher: https://doi.org/10.2134/agronj1989.00021962008100050025x
+
+## Originals still missing
 
 ## First Report of Puccinia canaliculata on Sunflower (2002)
 - Status: missing

@@ -14,7 +14,7 @@ Numbers correspond to the original request. See the bibliography for full metada
 10.1993 KSU101 report: unresolved public download.
 11.1997 INTSORMILAnnualReport: unresolved public download.
 12.1996 conference/1997 publication proceedings: unresolved public download; chapter citations retained.
-13.1989 sunflower photoperiod/temperature article: unresolved full text.
+13.1989 sunflower photoperiod/temperature article: complete six-page text verified October 16, 2026 and held privately; publisher DOI link is listed, but the PDF is not distributed in the public collection.
 14.2002 Puccinia sunflower note: unresolved full text.
 15.1996 wheat streak mosaic infection: full 7-page original downloaded.
 16.1995 comparison grain millet/sorghum: unresolved original; citation order/Andrews initials differ among sources and remain flagged.
@@ -23,7 +23,7 @@ Numbers correspond to the original request. See the bibliography for full metada
 19.1997 canola research, SRP803: full report downloaded.
 20.1996 canola production guide: unresolved original.
 21.KS 3579 registration: unresolved original.
-22.Plainsman registration: author-uploaded first page only; explicitlyPARTIAL, full article still missing.
+22.Plainsman registration: complete three-page text (292–294) verified October 16, 2026 and held privately. The public collection retains the clearly labeled earlier first-page-only copy and a publisher DOI link; it does not distribute the full PDF.
 23.Hays bibliography: preserved in full history and searched for all Stegmeier occurrences.
 24.Kansas historical reports index: consulted for report retrieval; additionalEP30 andBR38/BR39 bibliographies downloaded. Index webpage itself is not a PDF publication.
 25.INTSORMIL project archive: searched for annual reports and alternate sources; inaccessible originals listed individually.

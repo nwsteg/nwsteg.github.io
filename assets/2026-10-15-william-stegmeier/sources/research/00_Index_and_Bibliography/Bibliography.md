@@ -347,20 +347,21 @@ Collected October 15, 2026. Original works, whole containing publications, excer
 - Page Count: 96
 - Notes: Not verified
 
-## 24. Registration of Plainsman Rapeseed (2000)
+## 24. Registration of ‘Plainsman’ Rapeseed (2000)
 
 - Authors: C. L. Rife; D. L. Auld; W. D. Stegmeier; H. D. Sunderman; W. F. Heer; D. D. Baltensperger; L. A. Nelson; D. L. Johnson; D. Bordovsky; H. C. Minor
 - Series: Crop Science 40(1)
-- Doi: 10.2135/cropsci 2000.0006 rcv
+- Doi: 10.2135/cropsci2000.0006rcv
 - Source Url: https://doi.org/10.2135/cropsci2000.0006rcv
 - Download Url: https://www.researchgate.net/profile/David-Baltensperger/publication/265642581_Registration_of_%27Plainsman%27_Winter_Rapeseed/links/55f1c4ab08aedecb690209e0/Registration-of-Plainsman-Winter-Rapeseed.pdf
-- Relevance: Public author upload contains first page only, ending mid-sentence. PublisherPDF403. Crossref confirms full author list and pages.
+- Relevance: Rapeseed cultivar registration coauthored by W. D. Stegmeier.
 - Role: coauthor
-- Pages: Only 292 retrieved; full article 292–294
-- Status: partial; full article missing
+- Pages: 292–294 (complete article); public archived copy: 292 only
+- Status: Complete text held privately; public copy remains partial
 - Archive Path: 05_Canola_and_Rapeseed/2000_Plainsman_Rapeseed_PARTIAL_first_page_only.pdf
 - Page Count: 1
-- Notes: Not verified
+- Notes: Complete three-page text (292–294) verified October 16, 2026 and retained in the private family archive. Public redistribution rights have not been established; the full PDF is not included in this public collection. The preserved public file remains the earlier first-page-only copy; its file size, page count and checksum describe that partial file.
+
 
 ## 25. Contiguous segment substitution lines: New tool for elite pearl millet hybrid parental lines enhancement. Final Technical Report, Project R 7382 (2002)
 
@@ -470,17 +471,18 @@ Collected October 15, 2026. Original works, whole containing publications, excer
 ## 32. Sunflower Genotype Response to Photoperiod and Temperature in Field Environments (1989)
 
 - Authors: P. J. Goyne; A. A. Schneiter; K. C. Cleary; R. A. Creelman; W. D. Stegmeier; F. J. Wooding
-- Series: 
-- Doi: 
+- Series: Agronomy Journal 81(5)
+- Doi: 10.2134/agronj1989.00021962008100050025x
 - Source Url: https://doi.org/10.2134/agronj1989.00021962008100050025x
 - Download Url: 
-- Relevance: Publisher PDF403; no public institutional/author alternative located.
+- Relevance: Sunflower field-environment research coauthored by W. D. Stegmeier.
 - Role: coauthor
 - Pages: 826–831
-- Status: missing
-- Archive Path: Not verified
-- Page Count: Not verified
-- Notes: Not verified
+- Status: Complete text held privately; publisher link only
+- Archive Path: Not included in the public collection
+- Page Count: 6
+- Notes: Complete six-page text verified October 16, 2026 and retained in the private family archive. Public redistribution rights have not been established; the full PDF is not included in this public collection. Use the DOI link for publisher access.
+
 
 ## 33. First Report of Puccinia canaliculata on Sunflower (2002)
 

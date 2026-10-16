@@ -20,8 +20,8 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 3888,
-    "sha256": "81ccd7e32b66931bd4a835c44062dbfef85838d97adc0499c6ca9add63e368db"
+    "bytes": 4867,
+    "sha256": "f2ad3c475ef1993d6bc0e576b9fcf30343ac65737d9ab01da63fd436ed515967"
   },
   {
     "path": "botany/cfia-brassica-napus-biology.html",
@@ -1064,8 +1064,8 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 40113,
-    "sha256": "cd0cdcf410b30b73745f5b2499adf3e95353a5034fc2f3a15bc621d62c74d11a"
+    "bytes": 40800,
+    "sha256": "7cd17e3e8f45c4e369c9fc847cd75370e56c53e10f146f9cfee926db9d4ec3f6"
   },
   {
     "path": "research/00_Index_and_Bibliography/Bibliography.md",
@@ -1076,8 +1076,8 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 49618,
-    "sha256": "00c206541ade63e82508e0c8003466e67faf41afceb6f5bb8d25e42baf2a78b4"
+    "bytes": 50289,
+    "sha256": "3901ee8bc1284425c6e0f5d58eabc3f52873bd0c4c791529d92ba35403b511ea"
   },
   {
     "path": "research/00_Index_and_Bibliography/Collection_Statistics.json",
@@ -1088,8 +1088,8 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 228,
-    "sha256": "2db77b328bb76c50f59e818db5bb9f763a973875e80bdc597e3bf9576ed9e69d"
+    "bytes": 283,
+    "sha256": "91ee5097be19b36a4cd6afa2ffef143e0388edcb567a3639e89b02ec85896c66"
   },
   {
     "path": "research/00_Index_and_Bibliography/Missing_Documents.md",
@@ -1100,8 +1100,8 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 13558,
-    "sha256": "308f0e2bfa355851ad65c8bcb2d922728ef8cf0b0e05ba232fcb858dd1b01d79"
+    "bytes": 13854,
+    "sha256": "6f2ad74744c67909848f252b7ab166a94a43f3f6ff08b2bbdd1c52c3d501fd9e"
   },
   {
     "path": "research/00_Index_and_Bibliography/Requested_Records_Checklist.md",
@@ -1112,8 +1112,8 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 2883,
-    "sha256": "b7d07b238327895e9b3555112bf641b16e3b963afc341bc62f2aa5c6620ec77c"
+    "bytes": 3162,
+    "sha256": "222a65bdebf3355a905d1f596a5342451bf2ff807afb316163cfb89b42bb806c"
   },
   {
     "path": "research/01_Biography_Memorials_and_Photographs/1957_Garden_City_Fifty_Years_of_Progress_SRP007.pdf",
@@ -1405,12 +1405,12 @@
   },
   {
     "path": "research/05_Canola_and_Rapeseed/2000_Plainsman_Rapeseed_PARTIAL_first_page_only.pdf",
-    "title": "Registration of Plainsman Rapeseed",
+    "title": "Registration of \u2018Plainsman\u2019 Rapeseed",
     "kind": "Partial publication",
     "original_url": "https://www.researchgate.net/profile/David-Baltensperger/publication/265642581_Registration_of_%27Plainsman%27_Winter_Rapeseed/links/55f1c4ab08aedecb690209e0/Registration-of-Plainsman-Winter-Rapeseed.pdf",
     "source_url": "https://doi.org/10.2135/cropsci2000.0006rcv",
-    "pages_or_context": "Only292 retrieved; full article292\u2013294",
-    "notes": "",
+    "pages_or_context": "Public archived copy: page 292 only; complete article: 292\u2013294",
+    "notes": "Complete three-page text (292\u2013294) verified October 16, 2026 and retained in the private family archive. Public redistribution rights have not been established; the full PDF is not included in this public collection. The preserved public file remains the earlier first-page-only copy; its file size, page count and checksum describe that partial file.",
     "preserved_date": "2026-10-15",
     "bytes": 65003,
     "sha256": "50c83229163aadeea30ae3b20d164a34a4795ddc8b0e0e7435f6e54ea1d0a0e8"
@@ -1556,8 +1556,8 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 4565,
-    "sha256": "228c695b8fa7db64afc74dd7619f51ec1b57715ca86d589ca6e20ad89957ba44"
+    "bytes": 4902,
+    "sha256": "f54a4e71d374db6aa28aa4c911b80dc764dc4e33c0f01ca3fd7913851e6bfbcc"
   },
   {
     "path": "source-metadata.json",
@@ -1568,7 +1568,7 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 67658,
-    "sha256": "96a6159d7992eace525880a1960694056a4fc33432e4ae90bdcaf0e707a3fc29"
+    "bytes": 68050,
+    "sha256": "be77cce86127c398dc709c4d9dfca8c28d155a662f6209fc0f31305696baa7d5"
   }
 ]
