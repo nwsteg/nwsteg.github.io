@@ -317,6 +317,63 @@
   text-underline-offset: 3px;
 }
 
+/* Breeding explainers: readable without scripts, with optional detail in each step. */
+.stegmeier-post .explain-figure { box-sizing: border-box; position: relative; left: 50%; width: min(880px, calc(100vw - 60px)); max-width: none; transform: translateX(-50%); padding: 26px; }
+.stegmeier-post .explain-figure .figure-heading > p:last-child { margin-bottom: 22px; }
+.stegmeier-post .breeding-steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; margin: 0; padding: 0; list-style: none; }
+.stegmeier-post .breeding-steps > li { position: relative; min-width: 0; }
+.stegmeier-post .breeding-steps > li:not(:last-child)::after { content: '→'; position: absolute; top: 102px; right: -19px; color: #7c8d6e; font: 19px/1 Georgia, serif; }
+.stegmeier-post .breeding-steps details, .stegmeier-post .lineage-node { border: 1px solid #d7deca; border-radius: 4px; background: #fffdf8; }
+.stegmeier-post .breeding-steps summary { padding: 15px 12px 13px; list-style: none; text-align: center; }
+.stegmeier-post .breeding-steps summary::-webkit-details-marker, .stegmeier-post .lineage-node summary::-webkit-details-marker { display: none; }
+.stegmeier-post .breeding-step-number { display: block; text-align: left; font-size: 10px; color: #7b886b; font-weight: 600; letter-spacing: 1.2px; }
+.stegmeier-post .breeding-icon { display: block; width: 100%; height: auto; max-width: 160px; margin: 5px auto 15px; }
+.stegmeier-post .breeding-step-name { display: block; color: #354f3b; font: 22px/1.15 Georgia, serif; }
+.stegmeier-post .breeding-step-short { display: block; min-height: 36px; margin-top: 9px; color: #68755e; font-size: 11px; line-height: 1.6; }
+.stegmeier-post .breeding-more { display: block; margin-top: 13px; color: #6e7e5c; font: 10px/1.5 system-ui, sans-serif; }
+.stegmeier-post .breeding-more > span { display: inline-block; margin-left: 3px; transition: transform .15s ease; }
+.stegmeier-post details[open] > summary .breeding-more > span { transform: rotate(45deg); }
+.stegmeier-post .explain-figure summary:hover { background: #f1f4e8; }
+.stegmeier-post .explain-figure summary:focus-visible { outline: 2px solid #587783; outline-offset: 3px; }
+.stegmeier-post .explain-figure details > p { margin: 0; padding: 0 14px 15px; color: #617055; font-size: 12px; line-height: 1.7; }
+.stegmeier-post .breeding-repeat { display: flex; align-items: center; justify-content: center; gap: 12px; margin: 18px 0 0; color: #627451; font-size: 12px; text-align: center; }
+.stegmeier-post .breeding-repeat > span { color: #8a986f; font: 32px/1 Georgia, serif; }
+.stegmeier-post .lineage-transfer { display: flex; align-items: center; gap: 15px; padding: 12px 15px; margin-bottom: 20px; background: #edf1e3; border-left: 2px solid #9eac87; }
+.stegmeier-post .lineage-transfer > span { color: #4d6950; font: 25px/1 Georgia, serif; }
+.stegmeier-post .lineage-transfer > p { margin: 0; color: #627353; font-size: 12px; line-height: 1.6; }
+.stegmeier-post .millet-lineage { --lineage-color: #4d6950; display: grid; grid-template-columns: minmax(0, 1fr) 26px minmax(0, 1fr) 26px minmax(0, 1fr); gap: 5px; align-items: start; margin: 0 0 18px; }
+.stegmeier-post .lineage-842 { --lineage-color: #977028; }
+.stegmeier-post .lineage-node { min-width: 0; border-top: 3px solid var(--lineage-color); }
+.stegmeier-post .lineage-node summary { min-height: 158px; padding: 15px 16px; box-sizing: border-box; list-style: none; }
+.stegmeier-post .lineage-stage { display: block; margin-bottom: 13px; color: #758166; font-size: 9px; font-weight: 600; line-height: 1.5; letter-spacing: 1.2px; text-transform: uppercase; }
+.stegmeier-post .lineage-name { display: block; color: var(--lineage-color); font: 25px/1.15 Georgia, serif; }
+.stegmeier-post .lineage-slash { color: #c1c9b6; font-size: 20px; }
+.stegmeier-post .lineage-description { display: block; min-height: 38px; margin-top: 10px; color: #6b775f; font-size: 11px; line-height: 1.7; }
+.stegmeier-post .lineage-arrow { align-self: start; margin-top: 69px; color: #819271; font: 25px/1 Georgia, serif; text-align: center; }
+.stegmeier-post .lineage-key { display: grid; grid-template-columns: 135px 1fr; gap: 18px; border-top: 1px solid #dfe4d4; margin-top: 22px; padding-top: 18px; }
+.stegmeier-post .lineage-key > h4 { margin: 0; color: #4d6950; font: 21px/1.25 Georgia, serif; }
+.stegmeier-post .lineage-key > p { margin: 0; color: #69765f; font-size: 12px; line-height: 1.9; }
+.stegmeier-post .lineage-key strong { color: #4f6447; font-weight: 600; }
+.stegmeier-post .explain-figure figcaption { margin-top: 20px; font-size: 11px; }
+@media screen and (max-width: 700px) {
+  .stegmeier-post .explain-figure { left: auto; width: 100%; transform: none; padding: 22px 18px; }
+  .stegmeier-post .breeding-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .stegmeier-post .breeding-steps > li:not(:last-child)::after { display: none; }
+  .stegmeier-post .breeding-step-name { min-height: 49px; font-size: 21px; }
+  .stegmeier-post .breeding-icon { max-width: 130px; }
+  .stegmeier-post .millet-lineage { grid-template-columns: 1fr; gap: 7px; padding: 16px; border: 1px solid #dce2d1; border-radius: 4px; background: #f1f1e6; }
+  .stegmeier-post .lineage-node summary { min-height: 0; padding: 15px 16px; }
+  .stegmeier-post .lineage-description { min-height: 0; }
+  .stegmeier-post .lineage-arrow { margin: 0; font-size: 23px; transform: rotate(90deg); }
+  .stegmeier-post .lineage-stage { margin-bottom: 8px; }
+  .stegmeier-post .lineage-key { grid-template-columns: 1fr; gap: 10px; }
+}
+@media print {
+  .stegmeier-post .explain-figure { left: auto; width: 100%; transform: none; }
+  .stegmeier-post .breeding-steps > li, .stegmeier-post .millet-lineage { break-inside: avoid; }
+  .stegmeier-post .breeding-more { display: none; }
+}
+
 .stegmeier-post .service-note {
   margin: 1.6em 0;
   padding: 22px 26px;

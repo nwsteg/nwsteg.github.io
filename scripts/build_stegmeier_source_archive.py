@@ -32,7 +32,7 @@ def main():
             "source_url": entry.get("source_url", ""),
             "pages_or_context": entry.get("pages_or_context", ""),
             "notes": entry.get("notes", ""),
-            "preserved_date": "2026-10-15",
+            "preserved_date": entry.get("preserved_date", "2026-10-15"),
             "bytes": len(data),
             "sha256": hashlib.sha256(data).hexdigest(),
         })

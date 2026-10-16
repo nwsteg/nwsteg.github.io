@@ -856,5 +856,19 @@
     "source_url": "https://extension.k-state.edu/historicpublications/pubs/fthays.pdf",
     "pages_or_context": "PDF page 3; lower photograph in composite image 1; exposure date unrecorded",
     "notes": "Kansas State University. Crop (8, 158, 220, 287) from preserved originals/hays-1984.png, saved as JPEG without retouching. Copyright remains with the source publisher."
+  },
+  "figures/breeding-cycle.svg": {
+    "title": "How a breeder builds a better starting point",
+    "kind": "Original explanatory SVG figure",
+    "source_url": "https://nwsteg.github.io/2026/10/15/william-d-stegmeier.html#breeding-cycle",
+    "notes": "Original vector diagram of a simplified breeding cycle. Based on the archived 1984 millet bulletin and 1998 parental-line descriptions. Plant drawings are illustrative.",
+    "preserved_date": "2026-10-16"
+  },
+  "figures/millet-family-tree.svg": {
+    "title": "From Hays breeding stocks to Indian hybrids",
+    "kind": "Original explanatory SVG figure",
+    "source_url": "https://nwsteg.github.io/2026/10/15/william-d-stegmeier.html#millet-family-tree",
+    "notes": "Selected development history from the archived 842A/B and 843A/B papers, ISMN 39 (1998), pp. 128\u2013130. Hays AKM/BKM 2221 to 842A/B to HHB 68 (1993); AKM/BKM 2068 to 843A/B to HHB 67 (1990). Each hybrid has a separate pollen parent; B lines maintain A lines.",
+    "preserved_date": "2026-10-16"
   }
 }

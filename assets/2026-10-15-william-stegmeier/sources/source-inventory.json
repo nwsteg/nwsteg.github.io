@@ -20,8 +20,8 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 3449,
-    "sha256": "23888764de9466737fac40beb373214975c4c51408eb47bd2429472e0f3aaf23"
+    "bytes": 3888,
+    "sha256": "81ccd7e32b66931bd4a835c44062dbfef85838d97adc0499c6ca9add63e368db"
   },
   {
     "path": "botany/cfia-brassica-napus-biology.html",
@@ -84,6 +84,18 @@
     "sha256": "ba1d3dcb434e84e75e2fcd9f61c429b3d1eac76a2c90e134156d2feb60c2afe7"
   },
   {
+    "path": "figures/breeding-cycle.svg",
+    "title": "How a breeder builds a better starting point",
+    "kind": "Original explanatory SVG figure",
+    "original_url": "",
+    "source_url": "https://nwsteg.github.io/2026/10/15/william-d-stegmeier.html#breeding-cycle",
+    "pages_or_context": "",
+    "notes": "Original vector diagram of a simplified breeding cycle. Based on the archived 1984 millet bulletin and 1998 parental-line descriptions. Plant drawings are illustrative.",
+    "preserved_date": "2026-10-16",
+    "bytes": 7711,
+    "sha256": "72aaa8ea3025ec8b19b7794cca79a9ed9e873a72c947ff5df6a2e17ca815fe6f"
+  },
+  {
     "path": "figures/canola.svg",
     "title": "Canola",
     "kind": "Original SVG figure",
@@ -106,6 +118,18 @@
     "preserved_date": "2026-10-15",
     "bytes": 147832,
     "sha256": "1106ab0d8652e8528d4b1146b3084aee37630a3ef8f468ef8c5e58a49eba772d"
+  },
+  {
+    "path": "figures/millet-family-tree.svg",
+    "title": "From Hays breeding stocks to Indian hybrids",
+    "kind": "Original explanatory SVG figure",
+    "original_url": "",
+    "source_url": "https://nwsteg.github.io/2026/10/15/william-d-stegmeier.html#millet-family-tree",
+    "pages_or_context": "",
+    "notes": "Selected development history from the archived 842A/B and 843A/B papers, ISMN 39 (1998), pp. 128\u2013130. Hays AKM/BKM 2221 to 842A/B to HHB 68 (1993); AKM/BKM 2068 to 843A/B to HHB 67 (1990). Each hybrid has a separate pollen parent; B lines maintain A lines.",
+    "preserved_date": "2026-10-16",
+    "bytes": 5287,
+    "sha256": "f4e13d017352f7058c601110d13afebe0413771b9f2274b11350a5cb73435356"
   },
   {
     "path": "figures/pearl-millet.svg",
@@ -1544,7 +1568,7 @@
     "pages_or_context": "",
     "notes": "",
     "preserved_date": "2026-10-15",
-    "bytes": 66630,
-    "sha256": "b37811e8abd2b57727b30dd841b1bf820f79128e665678c0e93b87e43806c887"
+    "bytes": 67658,
+    "sha256": "96a6159d7992eace525880a1960694056a4fc33432e4ae90bdcaf0e707a3fc29"
   }
 ]

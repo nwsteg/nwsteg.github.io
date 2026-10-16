@@ -12,3 +12,6 @@ To refresh the inventories and combined ZIP after an intentional source addition
 
 HAYS STATION FEATURE
 The 1984 Fort Hays Branch Station brochure is preserved in the biography folder. Its page-3 station aerial and office photographs illustrate Bill’s Hays years (1971–1998); publication date is established, but their exposure dates are unrecorded. Cropped JPEG views retain their original composite PNG, crop metadata, and full PDF. Bill’s field-day photograph retains its separate AgReport publication credit and unknown date.
+
+BREEDING DIAGRAMS
+Added October 16, 2026: figures/breeding-cycle.svg and figures/millet-family-tree.svg are editable vector explainers for the post. The cycle is a simplified illustration; the family tree follows the documented Hays stocks, ICRISAT selections, and HHB 67/68 releases in the archived 1998 parental-line papers. The family tree distinguishes the maintainer B lines from the separate pollen parents used to produce hybrids.

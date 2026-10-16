@@ -28,7 +28,7 @@ def build():
 <details class="crop-notes"><summary>Context &amp; original reports</summary><p class="crop-context">{escape(crop['context'])}</p><div class="crop-reading">{refs}</div></details></div></div>
 </section>''')
     markup = '''<figure aria-labelledby="crops-title" class="research-figure crops-figure clear-section" id="crop-figure">
-<div class="figure-heading"><p class="figure-kicker">03 / In the research plots</p><h3 id="crops-title">A breeder’s field of work</h3><p>Select a crop to explore Bill’s work and its reach.</p></div>
+<div class="figure-heading"><p class="figure-kicker">05 / In the research plots</p><h3 id="crops-title">A breeder’s field of work</h3><p>Select a crop to explore Bill’s work and its reach.</p></div>
 <nav class="crop-tabs" aria-label="Choose a crop">''' + "".join(tabs) + '</nav>\n' + "\n".join(panels) + '''
 <details class="other-crops"><summary>Other trials &amp; exploratory work</summary><ul><li>Wheat</li><li>Corn</li><li>Castor beans</li><li>Soybeans</li><li>Pinto beans</li><li>Safflower</li><li>Winter barley</li><li>Popcorn</li><li>Amaranth</li></ul></details>
 <figcaption>Each statistic links to its preserved report. Acreage, experimental results and research scale measure different kinds of contribution. Illustrations show characteristic plant parts; sizes and growth stages are illustrative. <a href="#source-11">Botanical references</a> · <a href="#source-2">Station history</a> · <a href="#source-4">Millet parents</a> · <a href="#source-6">Sunflower and canola trials</a> · <a href="#source-7">Virus study</a>.</figcaption>
